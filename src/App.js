@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Header from '../src/components/Header'
-import freestyle from '../src/images/freestyle.png'
-import eatr from '../src/images/eatr.png'
+import Skills from '../src/components/Skills'
+import Projects from '../src/components/Projects'
+
 import {  } from 'semantic-ui-react'
 import './App.css';
 
@@ -12,24 +13,20 @@ class App extends Component {
         <header>
           <Header />
         </header>
-        <div id='app-content-container'>
-          <div id='app-content-greeting'>
-            Development <br />
-            +  <br />
-            Design <br />
+        <div id='app-container'>
+          <div id='app-greeting'>
+            <div id='app-greeting-title'>
+              Developer.<br />
+            </div>
+            <div id='app-greeting-description'>
+              Interested in creating rich user experiences upon a solid foundation of code.
+            </div>
           </div>
-          <div className='app-content-project-images'>
-            <img
-              alt='oh no!'
-              width="300"
-              height="150"
-              src={freestyle} />
-            <img
-              alt='oh no!'
-              width="300"
-              height="150"
-              src={eatr} />
-          </div>
+
+          <Skills />
+
+          <Projects />
+
         </div>
       </div>
     );
