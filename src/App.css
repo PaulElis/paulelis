@@ -13,7 +13,7 @@
 
 }
 
-#app-greeting {
+#app-greeting-container {
   font-family: 'Poiret One', cursive;
   font-size: 36px;
   line-height: 40px;
@@ -21,6 +21,46 @@
 }
 
 #app-greeting-title {
+  /* color: #D4AF37; */
+  font-family: 'Poiret One', cursive;
+  font-size: 36px;
+  padding-top: 10%;
+  padding-bottom: 2%;
+}
+
+#app-greeting-description {
+  font-family: 'Poiret One', cursive;
+  font-size: 14px;
+  line-height: 25px;
+  padding-top: 2%;
+  padding-bottom: 10%;
+}
+}
+
+  /* For Web */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+.app {
+  text-align: center;
+  color: white;
+}
+
+#app-container {
+
+}
+
+#app-greeting-container {
+  font-family: 'Poiret One', cursive;
+  font-size: 36px;
+  line-height: 40px;
+  padding: 8% 5% 17% 5%;
+}
+
+#app-greeting-title {
+  /* color: #D4AF37; */
   font-family: 'Poiret One', cursive;
   font-size: 36px;
   padding-top: 10%;

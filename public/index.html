@@ -26,6 +26,21 @@
   <body id='body'>
     <noscript>
       You need to enable JavaScript to run this app.
+
+      <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+      <script>
+        // Initialize Firebase
+        var config = {
+          apiKey: "AIzaSyDan6lC4S1cZGKxga8cO-oLOGZkqC9TUAU",
+          authDomain: "paul-elis.firebaseapp.com",
+          databaseURL: "https://paul-elis.firebaseio.com",
+          projectId: "paul-elis",
+          storageBucket: "paul-elis.appspot.com",
+          messagingSenderId: "595528581813"
+        };
+        firebase.initializeApp(config);
+      </script>
+      
     </noscript>
     <div id="root"></div>
     <!--

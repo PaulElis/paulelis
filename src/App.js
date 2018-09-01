@@ -13,8 +13,9 @@ class App extends Component {
         <header>
           <Header />
         </header>
+
         <div id='app-container'>
-          <div id='app-greeting'>
+          <div id='app-greeting-container'>
             <div id='app-greeting-title'>
               Developer.<br />
             </div>
@@ -22,12 +23,12 @@ class App extends Component {
               Interested in creating rich user experiences upon a solid foundation of code.
             </div>
           </div>
+        </div>
 
           <Skills />
 
           <Projects />
 
-        </div>
       </div>
     );
   }
