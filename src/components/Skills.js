@@ -17,34 +17,34 @@ class Skills extends Component {
           Skills
         </div>
         <div id='skills-list'>
-          <Grid columns={3} >
-            <Grid.Row columns={3} >
+          <Grid centered columns={3} >
+            <Grid.Row centered columns={3} >
               <Grid.Column>
-                <Image src={react} size='small' />
+                <Image src={react} />
               </Grid.Column>
               <Grid.Column>
-                <Image src={javascript} size='small' />
+                <Image src={javascript} />
               </Grid.Column>
               <Grid.Column>
-                <Image src={rails} size='small' />
-              </Grid.Column>
-            </Grid.Row>
-
-            <Grid.Row columns={3} >
-              <Grid.Column>
-                <Image src={ruby} size='small' />
-              </Grid.Column>
-              <Grid.Column>
-                <Image src={html} size='small' />
-              </Grid.Column>
-              <Grid.Column>
-                <Image src={css} size='small' />
+                <Image src={rails} />
               </Grid.Column>
             </Grid.Row>
 
             <Grid.Row centered columns={3} >
               <Grid.Column>
-                <Image src={reactnative} size='small' />
+                <Image src={ruby} />
+              </Grid.Column>
+              <Grid.Column>
+                <Image src={html} />
+              </Grid.Column>
+              <Grid.Column>
+                <Image src={css} />
+              </Grid.Column>
+            </Grid.Row>
+
+            <Grid.Row centered columns={3} >
+              <Grid.Column>
+                <Image src={reactnative} />
               </Grid.Column>
             </Grid.Row>
 

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../src/components/Header'
+import AboutMe from '../src/components/AboutMe'
 import Skills from '../src/components/Skills'
 import Projects from '../src/components/Projects'
 
@@ -24,6 +25,8 @@ class App extends Component {
             </div>
           </div>
         </div>
+
+          <AboutMe />
 
           <Skills />
 

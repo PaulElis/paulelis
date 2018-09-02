@@ -6,7 +6,7 @@
   and (orientation: portrait) {
 #skills-container{
   background-color: white;
-  padding: 35% 0% 55% 0%;
+  padding: 35% 0% 35% 0%;
 }
 
 #skills-title{
@@ -19,6 +19,10 @@
 
 #skills-list{
   padding: 0% 5% 0% 5%;
+}
+
+.ui.grid>.row>.column>img, .ui.grid>.row>img {
+  height: 7rem;
 }
 }
 
@@ -59,7 +63,7 @@
 }
 
 .ui.grid>.row>.column>img, .ui.grid>.row>img {
-  height: 10rem;
+  height: 7rem;
 }
 
 .ui.grid>.centered.column, .ui.grid>.row>.centered.column{
