@@ -19,7 +19,7 @@
 #connect-list{
   display: flex;
   justify-content: space-around;
-  padding: 0% 10% 0% 10%;
+  padding: 0% 15% 0% 15%;
 }
 
 #connect-list img{
@@ -37,22 +37,25 @@
 #connect-container{
   color: white;
   background-color: black;
+  padding: 1% 0% 0% 0%;
 }
 
 #connect-title{
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: bold;
   font-family: 'Poiret One', cursive;
   letter-spacing: 1px;
-  padding: 1% 0% 0% 0%;
+  padding: 0% 0% 0% 0%;
 }
 
 #connect-list{
   display: flex;
   justify-content: space-around;
-  padding: 0% 15% 0% 15%;
+  padding: 0% 35% 0% 35%;
 }
 
 #connect-list img{
-  height: 3rem;
+  height: 2rem;
+  padding: 0% 0% 0% 0%;
 }
 }

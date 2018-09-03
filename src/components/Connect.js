@@ -14,14 +14,14 @@ class Connect extends Component {
           {/* Connect */}
         </div>
         <div id='connect-list'>
-          <a href="mailto:hello@paulelis.com?subject=Greetings%20from%20PaulElis.com" target="_blank">
-          <img alt='oh no!' src={gmail} /></a>
+          <a href="mailto:hello@paulelis.com?subject=Greetings%20from%20PaulElis.com">
+          <img id='connect-image' alt='oh no!' src={gmail} /></a>
 
           <a href="https://www.linkedin.com/in/paulelis/" target="_blank">
-          <img alt='oh no!' src={linkedin} /></a>
+          <img id='connect-image' alt='oh no!' src={linkedin} /></a>
 
           <a href="https://github.com/PaulElis" target="_blank">
-          <img alt='oh no!' src={github} /></a>
+          <img id='connect-image' alt='oh no!' src={github} /></a>
         </div>
       </div>
     );

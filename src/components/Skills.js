@@ -20,7 +20,7 @@ class Skills extends Component {
 
 
 
-          
+
           <Grid centered columns={3} >
 
             <Grid.Row centered columns={3} >

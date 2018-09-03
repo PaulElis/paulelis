@@ -34,7 +34,7 @@
   and (min-resolution: 192dpi) {
 #skills-container{
   background-color: white;
-  padding: 7% 0% 13% 0%;
+  padding: 10% 0% 10% 0%;
 }
 
 #skills-title{
@@ -63,7 +63,8 @@
 }
 
 .ui.grid>.row>.column>img, .ui.grid>.row>img {
-  height: 7rem;
+  height: 6rem;
+  width: auto;
 }
 
 .ui.grid>.centered.column, .ui.grid>.row>.centered.column{
