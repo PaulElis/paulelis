@@ -1,0 +1,58 @@
+  /* Portrait iPhone 6+ 7+ 8+ */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+#connect-container{
+  color: white;
+  background-color: black;
+}
+
+#connect-title{
+  font-size: 14px;
+  font-family: 'Poiret One', cursive;
+  letter-spacing: 1px;
+  padding: 2% 0% 0% 0%;
+}
+
+#connect-list{
+  display: flex;
+  justify-content: space-around;
+  padding: 0% 10% 0% 10%;
+}
+
+#connect-list img{
+  height: 4rem;
+}
+
+}
+
+  /* For Web */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+#connect-container{
+  color: white;
+  background-color: black;
+}
+
+#connect-title{
+  font-size: 14px;
+  font-family: 'Poiret One', cursive;
+  letter-spacing: 1px;
+  padding: 1% 0% 0% 0%;
+}
+
+#connect-list{
+  display: flex;
+  justify-content: space-around;
+  padding: 0% 15% 0% 15%;
+}
+
+#connect-list img{
+  height: 3rem;
+}
+}

@@ -3,6 +3,7 @@ import Header from '../src/components/Header'
 import AboutMe from '../src/components/AboutMe'
 import Skills from '../src/components/Skills'
 import Projects from '../src/components/Projects'
+import Connect from '../src/components/Connect'
 
 import {  } from 'semantic-ui-react'
 import './App.css';
@@ -31,6 +32,8 @@ class App extends Component {
           <Skills />
 
           <Projects />
+
+          <Connect />
 
       </div>
     );
