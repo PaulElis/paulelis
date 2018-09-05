@@ -35,7 +35,7 @@ img {
 
 #project-container{
   background-color: #FAF9F9;
-  padding: 5% 0% 0% 0%;
+  padding: 11% 0% 0% 0%;
 }
 
 #project-title{
@@ -43,8 +43,7 @@ img {
   font-size: 40px;
   font-family: 'Poiret One', cursive;
   font-weight: bold;
-  /* text-align: left; */
-  padding-bottom: 5%;
+  padding-bottom: 4%;
 }
 
 #project-images{

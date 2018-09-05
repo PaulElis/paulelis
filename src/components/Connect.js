@@ -10,9 +10,9 @@ class Connect extends Component {
   render() {
     return (
       <div id='connect-container'>
-        <div id='connect-title'>
-          {/* Connect */}
-        </div>
+        {/* <div id='connect-title'>
+          Connect
+        </div> */}
         <div id='connect-list'>
           <a href="mailto:hello@paulelis.com?subject=Greetings%20from%20PaulElis.com">
           <img id='connect-image' alt='oh no!' src={gmail} /></a>
