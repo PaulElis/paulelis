@@ -1,10 +1,5 @@
-  /* Portrait iPhone 6+ 7+ 8+ */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) {
 #project-container{
+  text-align: center;
   background-color: #FAF9F9;
   padding: 20% 0px 30% 0px;
 }
@@ -14,26 +9,20 @@
   font-size: 40px;
   font-family: 'Poiret One', cursive;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
   padding-bottom: 20%;
-  padding-left: 60px;
 }
 
 img {
   height: 16rem;
   padding: 15px;
 }
-}
 
 
   /* For Web */
-@media screen
-  and (min-device-width: 1200px)
-  and (max-device-width: 1600px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) {
-
+@media (min-width: 992px) {
 #project-container{
+  text-align: center;
   background-color: #FAF9F9;
   padding: 11% 0% 0% 0%;
 }

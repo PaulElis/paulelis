@@ -17,10 +17,6 @@ class Skills extends Component {
           Skills
         </div>
         <div id='skills-list'>
-
-
-
-
           <Grid centered columns={3} >
 
             <Grid.Row centered columns={3} >
