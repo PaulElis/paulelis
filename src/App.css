@@ -1,5 +1,5 @@
 .app {
-  color: white;
+  color: black;
   text-align: center;
 }
 
@@ -8,21 +8,25 @@
 }
 
 #app-greeting-container {
+  background: url('../src/images/background.JPG');
+  background-size: cover;
   font-family: 'Poiret One', cursive;
   font-size: 36px;
   line-height: 40px;
-  padding: 45% 5% 80% 5%;
+  padding: 30% 5% 110% 5%;
 }
 
 #app-greeting-title {
   /* color: #D4AF37; */
+  color: white;
   font-family: 'Poiret One', cursive;
   font-size: 36px;
-  padding-top: 10%;
+  padding-top: 0%;
   padding-bottom: 2%;
 }
 
 #app-greeting-description {
+  color: white;
   font-family: 'Poiret One', cursive;
   font-size: 14px;
   line-height: 25px;
@@ -33,8 +37,9 @@
   /* For Web */
 @media (min-width: 992px) {
 .app {
+  background-color: white;
   text-align: center;
-  color: white;
+  color: black;
 }
 
 #app-container {
@@ -42,6 +47,8 @@
 }
 
 #app-greeting-container {
+  background: url('../src/images/background.JPG');
+  background-size: cover;
   font-family: 'Poiret One', cursive;
   font-size: 36px;
   line-height: 40px;
@@ -50,15 +57,17 @@
 
 #app-greeting-title {
   /* color: #D4AF37; */
+  color: white;
   font-family: 'Poiret One', cursive;
-  font-size: 36px;
+  font-size: 40px;
   padding-top: 10%;
   padding-bottom: 2%;
 }
 
 #app-greeting-description {
+  color: white;
   font-family: 'Poiret One', cursive;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 25px;
   padding-top: 2%;
   padding-bottom: 10%;

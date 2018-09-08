@@ -1,6 +1,7 @@
 #project-container{
   text-align: center;
-  background-color: #FAF9F9;
+  /* background-color: #FAF9F9; */
+  background-color: white;
   padding: 20% 0px 30% 0px;
 }
 
@@ -23,7 +24,8 @@ img {
 @media (min-width: 992px) {
 #project-container{
   text-align: center;
-  background-color: #FAF9F9;
+  /* background-color: #FAF9F9; */
+  background-color: white;
   padding: 11% 0% 0% 0%;
 }
 

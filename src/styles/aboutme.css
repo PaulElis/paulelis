@@ -1,10 +1,12 @@
 #aboutme-container{
-  color: white;
+  color: black;
   font-family: 'Poiret One', cursive;
-  background-color: #b87333;
+  /* background-color: #b87333; */
+  background-color: white;
 }
 
 #aboutme-title{
+  color: #D4AF37;
   font-size: 36px;
   font-weight: bold;
   letter-spacing: 2px;
@@ -21,12 +23,13 @@
 /* For Web */
 @media (min-width: 992px) {
 #aboutme-container{
-  color: white;
+  color: black;
   font-family: 'Poiret One', cursive;
-  background-color: #b87333;
+  background-color: white;
 }
 
 #aboutme-title{
+  color: #D4AF37;
   font-size: 40px;
   font-weight: bold;
   letter-spacing: 2px;
