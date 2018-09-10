@@ -1,6 +1,8 @@
+@media (max-width: 991px) {
 #header-container {
   background-color: white;
   font-size: 36px;
+  width: 100%;
   padding: 2%;
 }
 
@@ -12,11 +14,15 @@
   padding: .5%;
   text-align: left;
 }
+}
 
   /* For Web */
 @media (min-width: 992px) {
 #header-container {
-
+  background-color: white;
+  font-size: 36px;
+  width: 100%;
+  padding: 2%;
 }
 
 #header-title {

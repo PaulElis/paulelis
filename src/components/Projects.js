@@ -12,12 +12,12 @@ class Projects extends Component {
         </div>
         <div id='project-images'>
 
-          <a href="https://freestyle-e1af9.firebaseapp.com/login" target="_blank">
+          <a href="https://freestyle-e1af9.firebaseapp.com/login" target="_blank" rel="noopener noreferrer">
           <img alt='oh no!' src={freestyle} /></a>
 
-          <a href="https://eatr-4b804.firebaseapp.com/" target="_blank">
+          <a href="https://eatr-4b804.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
           <img alt='oh no!' src={eatr} /></a>
-          
+
         </div>
       </div>
     );

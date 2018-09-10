@@ -5,7 +5,7 @@ import Skills from '../src/components/Skills'
 import Projects from '../src/components/Projects'
 import Connect from '../src/components/Connect'
 
-import {  } from 'semantic-ui-react'
+// import {  } from 'semantic-ui-react'
 import './App.css';
 
 class App extends Component {
@@ -18,12 +18,12 @@ class App extends Component {
 
         <div id='app-container'>
           <div id='app-greeting-container'>
-            <div id='app-greeting-title'>
-              Developer.<br />
-            </div>
-            <div id='app-greeting-description'>
-              Interested in creating rich user experiences upon a solid foundation of code.
-            </div>
+              <div id='app-greeting-title'>
+                Developer.<br />
+              </div>
+              <div id='app-greeting-description'>
+                Interested in creating rich user experiences upon a solid foundation of code.
+              </div>
           </div>
         </div>
 
