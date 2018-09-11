@@ -1,6 +1,6 @@
 #connect-container{
   color: white;
-  background-color: black;
+  background-color: white;
 }
 
 #connect-title{
@@ -24,7 +24,7 @@
 @media (min-width: 992px) {
 #connect-container{
   color: white;
-  background-color: black;
+  background-color: white;
   padding: 1% 0% 0% 0%;
 }
 
