@@ -5,8 +5,9 @@ class AboutMe extends Component {
   render() {
     return (
       <div id='aboutme-container'>
+        <a name="aboutme" />
         <div id='aboutme-title'>
-          Let's Build...
+            Let's Build...
         </div>
         <div id='aboutme-content'>
           Hey I'm Paul. Software Engineer with a background in real estate and lover of nearly anything outdoors.

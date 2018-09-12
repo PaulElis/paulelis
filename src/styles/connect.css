@@ -1,5 +1,5 @@
 #connect-container{
-  color: white;
+  color: black;
   background-color: white;
 }
 
@@ -7,23 +7,25 @@
   font-size: 14px;
   font-family: 'Poiret One', cursive;
   letter-spacing: 1px;
-  padding: 2% 0% 0% 0%;
+  padding: 0% 0% 1% 0%;
 }
 
 #connect-list{
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  /* justify-content: space-around; */
   padding: 0% 15% 0% 15%;
 }
 
-#connect-list img{
-  height: 4rem;
+#connect-list a{
+  color: #D4AF37;
+  padding: 2% 0% 2% 0%;
 }
 
   /* For Web */
 @media (min-width: 992px) {
 #connect-container{
-  color: white;
+  color: black;
   background-color: white;
   padding: 1% 0% 0% 0%;
 }
@@ -33,17 +35,17 @@
   font-weight: bold;
   font-family: 'Poiret One', cursive;
   letter-spacing: 1px;
-  padding: 0% 0% 0% 0%;
+  padding: 0% 0% 1% 0%;
 }
 
 #connect-list{
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   padding: 0% 35% 0% 35%;
 }
 
-#connect-list img{
-  height: 2rem;
-  padding: 0% 0% 0% 0%;
+#connect-list a{
+  color: #D4AF37;
+  padding: 2% 0% 2% 0%;
 }
 }

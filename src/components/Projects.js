@@ -7,6 +7,7 @@ class Projects extends Component {
   render() {
     return (
       <div id='project-container'>
+        <a name="projects" />
         <div id='project-title'>
           Projects
         </div>
