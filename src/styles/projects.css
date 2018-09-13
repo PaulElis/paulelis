@@ -1,8 +1,7 @@
 #project-container{
   text-align: center;
-  /* background-color: #FAF9F9; */
   background-color: white;
-  padding: 20% 0px 30% 0px;
+  padding: 0% 0px 25% 0px;
 }
 
 #project-title{
@@ -11,7 +10,7 @@
   font-family: 'Poiret One', cursive;
   font-weight: bold;
   text-align: center;
-  padding-bottom: 20%;
+  padding: 20% 0% 20% 0%;
 }
 
 img {
@@ -24,9 +23,8 @@ img {
 @media (min-width: 992px) {
 #project-container{
   text-align: center;
-  /* background-color: #FAF9F9; */
   background-color: white;
-  padding: 11% 0% 0% 0%;
+  padding: 0% 0% 0% 0%;
 }
 
 #project-title{
@@ -34,7 +32,7 @@ img {
   font-size: 40px;
   font-family: 'Poiret One', cursive;
   font-weight: bold;
-  padding-bottom: 4%;
+  padding: 10% 0% 4% 0%;
 }
 
 #project-images{

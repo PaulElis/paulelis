@@ -1,0 +1,64 @@
+@media (max-width: 991px) {
+#footer-container{
+  color: black;
+  background-color: white;
+}
+
+#footer-grid{
+  text-align: left;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 16px;
+  font-family: 'Poiret One', cursive;
+  letter-spacing: 1px;
+  padding: 0% 0% 0% 25%;
+}
+
+#footer-section{
+  padding: 5% 0% 5% 0%;
+}
+
+#footer-titles{
+  color: black;
+}
+
+#footer-list a{
+  color: #D4AF37;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+}
+}
+
+  /* For Web */
+@media (min-width: 992px) {
+#footer-container{
+  color: black;
+  background-color: white;
+  padding: 1% 0% 0% 0%;
+}
+
+#footer-grid{
+  text-align: left;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Poiret One', cursive;
+  letter-spacing: 1px;
+  padding: 0% 0% 0% 25%;
+}
+
+#footer-section{
+  padding: 5% 0% 5% 0%;
+}
+
+#footer-list a{
+  color: #D4AF37;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3%;
+}
+}

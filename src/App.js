@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Header from '../src/components/Header'
-import AboutMe from '../src/components/AboutMe'
+import About from '../src/components/About'
 import Skills from '../src/components/Skills'
 import Projects from '../src/components/Projects'
-import Connect from '../src/components/Connect'
+import Footer from '../src/components/Footer'
 
 // import {  } from 'semantic-ui-react'
 import './App.css';
@@ -27,13 +27,13 @@ class App extends Component {
           </div>
         </div>
 
-          <AboutMe />
+          <About />
 
           <Skills />
 
           <Projects />
 
-          <Connect />
+          <Footer />
 
       </div>
     );

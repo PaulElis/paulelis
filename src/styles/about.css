@@ -1,11 +1,11 @@
-#aboutme-container{
+#about-container{
   color: black;
   font-family: 'Poiret One', cursive;
   /* background-color: #b87333; */
   background-color: white;
 }
 
-#aboutme-title{
+#about-title{
   color: #D4AF37;
   font-size: 36px;
   font-weight: bold;
@@ -13,7 +13,7 @@
   padding: 45% 0% 10% 0%;
 }
 
-#aboutme-content{
+#about-content{
   font-size: 18px;
   letter-spacing: 2px;
   line-height: 35px;
@@ -22,13 +22,13 @@
 
 /* For Web */
 @media (min-width: 992px) {
-#aboutme-container{
+#about-container{
   color: black;
   font-family: 'Poiret One', cursive;
   background-color: white;
 }
 
-#aboutme-title{
+#about-title{
   color: #D4AF37;
   font-size: 40px;
   font-weight: bold;
@@ -36,7 +36,7 @@
   padding: 20% 0% 3% 0%;
 }
 
-#aboutme-content{
+#about-content{
   font-size: 18px;
   letter-spacing: 2px;
   line-height: 35px;
