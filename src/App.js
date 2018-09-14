@@ -16,6 +16,8 @@ class App extends Component {
           <Header />
         </header>
 
+        {/* <div id='scrolling-box'> */}
+
         <div id='app-container'>
           <div id='app-greeting-container'>
               <div id='app-greeting-title'>
@@ -27,14 +29,18 @@ class App extends Component {
           </div>
         </div>
 
-          <About />
+          <a name="about" />
+            <About />
 
+          <a name="skills" />
           <Skills />
 
+          <a name="projects" />
           <Projects />
 
           <Footer />
 
+        {/* </div> */}
       </div>
     );
   }

@@ -5,7 +5,7 @@ class About extends Component {
   render() {
     return (
       <div id='about-container'>
-        <a name="about" />
+          {/* <a name="about" /> */}
         <div id='about-title'>
             Let's Build...
         </div>

@@ -13,7 +13,7 @@ class Skills extends Component {
   render() {
     return (
       <div id='skills-container'>
-        <a name="skills" />
+        {/* <a name="skills" /> */}
         <div id='skills-title'>
           Skills
         </div>
