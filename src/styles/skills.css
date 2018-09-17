@@ -1,8 +1,9 @@
-#skills-container{
-  background-color: white;
+@media (max-width: 991px) {
+#skills-component{
+  background-image: linear-gradient(#228B22, #D4AF37);
 }
 
-#skills-title{
+#skills-header{
   color: #D4AF37;
   font-size: 40px;
   font-family: 'Poiret One', cursive;
@@ -10,63 +11,46 @@
   padding: 35% 0% 20% 0%;
 }
 
-#skills-list{
-  padding: 0% 5% 20% 5%;
+div.skills-title{
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding: 5% 0% 5% 0%;
 }
 
-.ui.grid>.row>.column>img, .ui.grid>.row>img {
-  height: 7rem;
-  width: auto;
+div.skills-list{
+  color: white;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 0% 0% 20% 0%;
 }
-
-.ui.grid>[class*="three column"].row>.column {
-  display: flex;
-  justify-content: center;
 }
-
-.ui.grid>.centered.column, .ui.grid>.row>.centered.column{
-  display: flex!important;
-}
-
 
 /* For Web */
 @media (min-width: 992px) {
-#skills-container{
-  text-align: center;
-  background-color: white;
+#skills-component{
+  background-image: linear-gradient(#228B22, #D4AF37);
 }
 
-#skills-title{
+#skills-header{
   color: #D4AF37;
   font-size: 40px;
   font-family: 'Poiret One', cursive;
   font-weight: bold;
-  padding: 10% 0% 7% 0%;
+  padding: 5% 0% 5% 0%;
 }
 
-#skills-list{
-  display: flex;
-  width: 100%;
+div.skills-title{
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding: 5% 0% 5% 0%;
 }
 
-.ui.grid {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  margin: 0!important;
-}
-
-.ui.grid>[class*="three column"].row>.column {
-  display: flex;
-  justify-content: center;
-}
-
-.ui.grid>.row>.column>img, .ui.grid>.row>img {
-  height: 6rem;
-  width: auto;
-}
-
-.ui.grid>.centered.column, .ui.grid>.row>.centered.column{
-  display: flex!important;
+div.skills-list{
+  color: white;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 0% 0% 5% 0%;
 }
 }
