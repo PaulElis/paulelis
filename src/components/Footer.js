@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import gmail from '../images/gmail.png'
-import linkedin from '../images/linkedin.png'
-import github from '../images/github.png'
+// import gmail from '../images/gmail.png'
+// import linkedin from '../images/linkedin.png'
+// import github from '../images/github.png'
 // import { Grid, Image } from 'semantic-ui-react'
 import '../styles/footer.css';
 
