@@ -25,6 +25,7 @@
   color: black;
   font-family: 'Poiret One', cursive;
   background-color: white;
+  padding: 15% 0% 15% 0%;
 }
 
 #about-title{
@@ -32,13 +33,13 @@
   font-size: 40px;
   font-weight: bold;
   letter-spacing: 2px;
-  padding: 20% 0% 3% 0%;
+  padding: 0% 0% 3% 0%;
 }
 
 #about-content{
   font-size: 18px;
   letter-spacing: 2px;
   line-height: 35px;
-  padding: 0% 20% 23% 20%;
+  padding: 0% 20% 0% 20%;
 }
 }

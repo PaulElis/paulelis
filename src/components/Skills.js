@@ -16,6 +16,7 @@ class Skills extends Component {
         <div id='skills-header'>
           Skills
         </div>
+
         <div id='skills-container'>
           <div className='skills-title'>Languages</div>
           <div className='skills-list'>
@@ -26,41 +27,8 @@ class Skills extends Component {
           <div className='skills-list'>
             React, React Native, Ruby on Rails, Sinatra, Rack
           </div>
-
-          {/* <Grid centered columns={3} >
-
-            <Grid.Row centered columns={3} >
-              <Grid.Column>
-                <Image src={react} />
-              </Grid.Column>
-              <Grid.Column>
-                <Image src={javascript} />
-              </Grid.Column>
-              <Grid.Column>
-                <Image src={rails} />
-              </Grid.Column>
-            </Grid.Row>
-
-            <Grid.Row centered columns={3} >
-              <Grid.Column>
-                <Image src={ruby} />
-              </Grid.Column>
-              <Grid.Column>
-                <Image src={html} />
-              </Grid.Column>
-              <Grid.Column>
-                <Image src={css} />
-              </Grid.Column>
-            </Grid.Row>
-
-            <Grid.Row centered columns={3} >
-              <Grid.Column>
-                <Image src={reactnative} />
-              </Grid.Column>
-            </Grid.Row>
-
-          </Grid> */}
         </div>
+
       </div>
     );
   }
