@@ -2,20 +2,22 @@
 #project-component{
   text-align: center;
   background-color: white;
-  padding: 0% 0px 25% 0px;
+  padding: 10% 0% 10% 0%;
 }
 
 #project-header{
   color: #D4AF37;
+  letter-spacing: 2px;
   font-size: 40px;
   font-family: 'Poiret One', cursive;
   font-weight: bold;
   text-align: center;
-  padding: 20% 0% 20% 0%;
+  padding: 0% 0% 0% 0%;
 }
 
-#project-grid{
+div#project-grid{
   display: grid;
+  padding: 10% 0% 0% 0%;
 }
 
 div.project-section{

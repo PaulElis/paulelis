@@ -7,7 +7,6 @@ class Projects extends Component {
   render() {
     return (
       <div id='project-component'>
-        {/* <a name="projects" /> */}
           <div id='project-header'>
             Projects
           </div>
