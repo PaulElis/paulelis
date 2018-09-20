@@ -14,19 +14,24 @@ class Skills extends Component {
     return (
       <div id='skills-component'>
         <div id='skills-header'>
-          Skills
+          {/* Skills */}
         </div>
 
-        <div id='skills-container'>
-          <div className='skills-title'>Languages</div>
-          <div className='skills-list'>
-            Javascript, Ruby, HTML, CSS, SQL
+        <div id='skills-grid'>
+          <div className='skills-section'>
+            <div className='skills-title'>Languages</div>
+            <div className='skills-list'>
+              Javascript, Ruby, HTML, CSS, SQL
+            </div>
           </div>
 
-          <div className='skills-title'>Frameworks</div>
-          <div className='skills-list'>
-            React, React Native, Ruby on Rails, Sinatra, Rack
-          </div>
+        <div className='skills-section'>
+            <div className='skills-title' id='skills-title-2'>Frameworks</div>
+            <div className='skills-list'>
+              React, React Native, Ruby on Rails, Sinatra, Rack
+            </div>
+        </div>
+
         </div>
 
       </div>

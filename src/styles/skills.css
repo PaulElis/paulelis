@@ -1,23 +1,28 @@
 @media (max-width: 991px) {
 #skills-component{
   padding: 20% 0% 20% 0%;
-  background-image: linear-gradient(#415a77, #364b63, #415a77);
+  background-image: linear-gradient(#486484, #415a77, #486484);
 }
 
-#skills-header{
+/* #skills-header{
   color: #D4AF37;
   letter-spacing: 2px;
   font-size: 40px;
   font-family: 'Poiret One', cursive;
   font-weight: bold;
   padding: 0% 0% 0% 0%;
-}
+} */
 
 div.skills-title{
   color: white;
   font-size: 20px;
-  letter-spacing: 2px;
-  padding: 15% 0% 0% 0%;
+  font-style: italic;
+  letter-spacing: 3px;
+  padding: 0% 0% 0% 0%;
+}
+
+div.skills-title#skills-title-2{
+  padding: 10% 0% 0% 0%;
 }
 
 div.skills-list{
@@ -25,37 +30,45 @@ div.skills-list{
   font-size: 16px;
   letter-spacing: 2px;
   line-height: 30px;
-  padding: 5% 5% 0% 5%;
+  padding: 7% 5% 0% 5%;
 }
 }
 
 /* For Web */
 @media (min-width: 992px) {
 #skills-component{
-  padding: 8% 0% 8% 0%;
-  /* background-image: linear-gradient(#2e3e33, #2F5A3B, #2e3e33); */
-  background-image: linear-gradient(#415a77, #364b63, #415a77);
+  padding: 15% 0% 15% 0%;
+  /* background-image: linear-gradient(#415a77, #364b63, #415a77); */
+  background-image: linear-gradient(#486484, #415a77, #486484);
 }
 
-#skills-header{
+/* #skills-header{
   color: #D4AF37;
+  letter-spacing: 2px;
   font-size: 40px;
   font-family: 'Poiret One', cursive;
   font-weight: bold;
   padding: 0% 0% 0% 0%;
+} */
+
+div#skills-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0% 5% 0% 5%;
 }
 
 div.skills-title{
   color: white;
+  font-style: italic;
   font-size: 20px;
-  letter-spacing: 2px;
-  padding: 5% 0% 0% 0%;
+  letter-spacing: 3px;
+  padding: 0% 0% 0% 0%;
 }
 
 div.skills-list{
   color: white;
   font-size: 16px;
   letter-spacing: 2px;
-  padding: 5% 0% 0% 0%;
+  padding: 7% 0% 0% 0%;
 }
 }

@@ -1,5 +1,5 @@
 @media (max-width: 575px) {
-#project-component{
+div#project-component{
   text-align: center;
   background-color: white;
   padding: 10% 0% 10% 0%;
@@ -50,11 +50,11 @@ div.project-description{
 }
 
 @media (min-width: 576px) {
-#project-component{
+div#project-component{
   align-items: center;
   text-align: center;
   background-color: white;
-  padding: 0% 0% 10% 0%;
+  padding: 0% 0% 0% 0%;
 }
 
 #project-header{
@@ -104,9 +104,10 @@ img {
 
   /* For Web */
 @media (min-width: 992px) {
-#project-component{
+div#project-component{
   text-align: center;
   background-color: white;
+  padding: 0% 0% 0% 0%;
 }
 
 #project-header{
