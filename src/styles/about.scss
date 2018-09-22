@@ -1,0 +1,64 @@
+// .panel{
+//   background-color: red;
+//   height: 70px;
+//   border: 2px solid green;
+// }
+//
+// .big-panel{
+//   @extend .panel;
+//   width: 150px;
+//   font-size: 2em;
+// }
+
+$font: 'Poiret One', cursive;
+$title-color: #D4AF37;
+$title-spacing: 2px;
+$content-spacing: 2px;
+
+@media (max-width: 991px) {
+#about-container{
+  color: black;
+  font-family: $font;
+  background-color: white;
+  padding: 30% 0% 30% 0%;
+}
+
+#about-title{
+  color: $title-color;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: $title-spacing;
+  padding: 0% 0% 0% 0%;
+}
+
+#about-content{
+  font-size: 18px;
+  letter-spacing: $content-spacing;
+  line-height: 35px;
+  padding: 10% 10% 0% 10%;
+}
+}
+
+@media (min-width: 992px) {
+#about-container{
+  color: black;
+  font-family: $font;
+  background-color: white;
+  padding: 15% 0% 15% 0%;
+}
+
+#about-title{
+  color: $title-color;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: $title-spacing;
+  padding: 0% 0% 3% 0%;
+}
+
+#about-content{
+  font-size: 18px;
+  letter-spacing: $content-spacing;
+  line-height: 35px;
+  padding: 0% 20% 0% 20%;
+}
+}
