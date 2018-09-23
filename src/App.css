@@ -1,154 +1,132 @@
 @media (max-width: 575px) {
-.app {
-  color: black;
-  text-align: center;
-}
+  .app {
+    color: black;
+    text-align: center; }
 
-#app-container {
-}
+  #app-greeting-container {
+    color: white;
+    position: relative;
+    text-align: center;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    height: 400px; }
 
-#app-greeting-container {
-  background: url('../src/images/hero.JPG');
-  background-size: cover;
-  background-position: 23%;
-  font-family: 'Poiret One', cursive;
-  font-size: 36px;
-  line-height: 40px;
-  padding: 30% 5% 110% 5%;
-}
+  div#app-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%); }
 
-#app-greeting-title {
-  color: white;
-  font-family: 'Poiret One', cursive;
-  font-size: 36px;
-  padding-top: 0%;
-  padding-bottom: 2%;
-}
+  h2#app-title {
+    font-size: 4vh;
+    font-family: "Poiret One", cursive;
+    line-height: 0vh; }
 
-#app-greeting-description {
-  color: white;
-  font-family: 'Poiret One', cursive;
-  font-size: 14px;
-  line-height: 25px;
-  padding-top: 2%;
-  padding-bottom: 10%;
-}
-}
+  h5#app-description {
+    font-size: 1.5vh;
+    font-family: "Poiret One", cursive; }
 
+  img {
+    object-fit: cover; } }
 @media (min-width: 576px) {
-.app {
-  color: black;
-  text-align: center;
-}
+  .app {
+    color: black;
+    text-align: center; }
 
-#app-container {
-}
+  #app-greeting-container {
+    color: white;
+    position: relative;
+    text-align: center;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    height: 600px; }
 
-#app-greeting-container {
-  background: url('../src/images/hero.JPG');
-  background-size: cover;
-  background-position: center;
-  font-family: 'Poiret One', cursive;
-  font-size: 36px;
-  line-height: 40px;
-  padding: 25% 5% 25% 5%;
-}
+  div#app-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%); }
 
-#app-greeting-title {
-  color: white;
-  font-family: 'Poiret One', cursive;
-  font-size: 36px;
-  padding-top: 0%;
-  padding-bottom: 2%;
-}
+  h2#app-title {
+    font-size: 5vh;
+    font-family: "Poiret One", cursive;
+    line-height: 10px; }
 
-#app-greeting-description {
-  color: white;
-  font-family: 'Poiret One', cursive;
-  font-size: 14px;
-  line-height: 25px;
-  padding-top: 2%;
-  padding-bottom: 10%;
-}
-}
+  h5#app-description {
+    font-size: 2vh;
+    font-family: "Poiret One", cursive; }
 
+  img {
+    object-fit: cover; } }
 @media (min-width: 768px) {
   .app {
-  color: black;
-  text-align: center;
-}
+    color: black;
+    text-align: center; }
 
-#app-container {
-}
+  #app-greeting-container {
+    color: white;
+    position: relative;
+    text-align: center;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    height: 550px; }
 
-#app-greeting-container {
-  background: url('../src/images/hero.JPG');
-  background-size: cover;
-  background-position: center;
-  font-family: 'Poiret One', cursive;
-  font-size: 36px;
-  line-height: 40px;
-  padding: 20% 5% 20% 5%;
-}
+  div#app-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%); }
 
-#app-greeting-title {
-  color: white;
-  font-family: 'Poiret One', cursive;
-  font-size: 36px;
-  padding-top: 0%;
-  padding-bottom: 2%;
-}
+  h2#app-title {
+    font-size: 6vh;
+    font-family: "Poiret One", cursive;
+    line-height: 4vh; }
 
-#app-greeting-description {
-  color: white;
-  font-family: 'Poiret One', cursive;
-  font-size: 14px;
-  line-height: 25px;
-  padding-top: 2%;
-  padding-bottom: 10%;
-}
-}
+  h5#app-description {
+    font-size: 2vh;
+    font-family: "Poiret One", cursive; }
 
-  /* For Web */
+  img {
+    object-fit: cover; } }
+/* For Web */
 @media (min-width: 992px) {
-.app {
-  background-color: white;
-  text-align: center;
-  color: black;
-}
+  .app {
+    background-color: white;
+    text-align: center;
+    color: black; }
 
-#scrolling-box{
-  overflow-y: scroll;
-  scroll-behavior: smooth;
-}
+  #app-greeting-container {
+    color: white;
+    position: relative;
+    text-align: center;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    height: 560px; }
 
-#app-container {
-}
+  div#app-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%); }
 
-#app-greeting-container {
-  background: url('../src/images/hero.JPG');
-  background-size: cover;
-  background-position: center;
-  font-family: 'Poiret One', cursive;
-  font-size: 36px;
-  line-height: 40px;
-  padding: 8% 5% 17% 5%;
-}
+  h2#app-title {
+    font-size: 7vh;
+    font-family: "Poiret One", cursive;
+    line-height: 5vh; }
 
-#app-greeting-title {
-  color: white;
-  font-family: 'Poiret One', cursive;
-  font-size: 40px;
-  padding-top: 10%;
-  padding-bottom: 2%;
-}
+  h5#app-description {
+    font-size: 2.5vh;
+    font-family: "Poiret One", cursive; }
 
-#app-greeting-description {
-  color: white;
-  font-family: 'Poiret One', cursive;
-  font-size: 16px;
-  line-height: 25px;
-  padding-top: 2%;
-  padding-bottom: 10%;
-}
-}
+  img {
+    object-fit: cover; } }
+
+/*# sourceMappingURL=app.css.map */
