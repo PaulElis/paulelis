@@ -21,7 +21,7 @@ class App extends Component {
 
         <div id='app-container'>
           <div id='app-greeting-container'>
-              <img src={hero} alt='oh no!'/>
+              <img src={hero} id='hero' alt='oh no!'/>
               {/* <div id='app-greeting-title'>
                 Developer.
               </div>

@@ -34,14 +34,14 @@ $font: 'Poiret One', cursive;
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
   // padding: 90% 0% 90% 0%;
-  height: 400px;
+  height: 600px;
 }
 
 div#app-content{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-40%, -50%);
+  transform: translate(-35%, -50%);
 }
 
 h2#app-title{
@@ -55,8 +55,11 @@ h5#app-description{
   font-family: $font;
 }
 
-img{
+img#hero{
   object-fit: cover;
+  object-position: 25% -40%;
+  // width: 500px;
+  // height: 400px;
 }
 }
 
@@ -74,7 +77,7 @@ img{
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
-  height: 600px;
+  height: 500px;
 }
 
 div#app-content{
@@ -95,7 +98,7 @@ h5#app-description{
   font-family: $font;
 }
 
-img{
+img#hero{
   object-fit: cover;
 }
 }
@@ -114,7 +117,7 @@ img{
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
-  height: 550px;
+  height: 430px;
 }
 
 div#app-content{
@@ -135,7 +138,7 @@ h5#app-description{
   font-family: $font;
 }
 
-img{
+img#hero{
   object-fit: cover;
 }
 }
@@ -180,7 +183,7 @@ h5#app-description{
   font-family: $font;
 }
 
-img{
+img#hero{
   object-fit: cover;
 }
 }

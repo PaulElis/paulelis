@@ -11,13 +11,13 @@
     -moz-transition: opacity 1s ease-in-out;
     -o-transition: opacity 1s ease-in-out;
     transition: opacity 1s ease-in-out;
-    height: 400px; }
+    height: 600px; }
 
   div#app-content {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-40%, -50%); }
+    transform: translate(-35%, -50%); }
 
   h2#app-title {
     font-size: 4vh;
@@ -28,8 +28,9 @@
     font-size: 1.5vh;
     font-family: "Poiret One", cursive; }
 
-  img {
-    object-fit: cover; } }
+  img#hero {
+    object-fit: cover;
+    object-position: 25% -40%; } }
 @media (min-width: 576px) {
   .app {
     color: black;
@@ -43,7 +44,7 @@
     -moz-transition: opacity 1s ease-in-out;
     -o-transition: opacity 1s ease-in-out;
     transition: opacity 1s ease-in-out;
-    height: 600px; }
+    height: 500px; }
 
   div#app-content {
     position: absolute;
@@ -60,7 +61,7 @@
     font-size: 2vh;
     font-family: "Poiret One", cursive; }
 
-  img {
+  img#hero {
     object-fit: cover; } }
 @media (min-width: 768px) {
   .app {
@@ -75,7 +76,7 @@
     -moz-transition: opacity 1s ease-in-out;
     -o-transition: opacity 1s ease-in-out;
     transition: opacity 1s ease-in-out;
-    height: 550px; }
+    height: 430px; }
 
   div#app-content {
     position: absolute;
@@ -92,7 +93,7 @@
     font-size: 2vh;
     font-family: "Poiret One", cursive; }
 
-  img {
+  img#hero {
     object-fit: cover; } }
 /* For Web */
 @media (min-width: 992px) {
@@ -126,7 +127,7 @@
     font-size: 2.5vh;
     font-family: "Poiret One", cursive; }
 
-  img {
+  img#hero {
     object-fit: cover; } }
 
-/*# sourceMappingURL=app.css.map */
+/*# sourceMappingURL=App.css.map */
