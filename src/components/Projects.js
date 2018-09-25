@@ -14,8 +14,13 @@ class Projects extends Component {
 
           <div className='project-section'>
             <div className='project-content'>
-              <a href="https://freestyle-e1af9.firebaseapp.com/login" target="_blank" rel="noopener noreferrer">
-              <img alt='oh no!' src={freestyle} className='project-image' /></a>
+              <div className='project-image-container'>
+                <a href="https://freestyle-e1af9.firebaseapp.com/login" target="_blank" rel="noopener noreferrer">
+                  <img alt='oh no!' src={freestyle} className='project-image' /></a>
+                <div className='middle'>
+                  <div className='project-image-text'>Live Demo</div>
+                </div>
+              </div>
               <div className='project-description'>
                 A platform for developers and clients to collaborate on a freelance contract.
               </div>
@@ -24,8 +29,13 @@ class Projects extends Component {
 
           <div className='project-section'>
             <div className='project-content'>
-              <a href="https://eatr-4b804.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
-              <img alt='oh no!' src={eatr} className='project-image' /></a>
+              <div className='project-image-container'>
+                <a href="https://eatr-4b804.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
+                  <img alt='oh no!' src={eatr} className='project-image' /></a>
+                <div className='middle'>
+                  <div className='project-image-text'>Live Demo</div>
+                </div>
+              </div>
               <div className='project-description'>
                 An update to a popular app with a more visually appetizing interface.
               </div>

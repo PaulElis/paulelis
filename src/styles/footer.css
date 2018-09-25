@@ -28,6 +28,11 @@ div.footer-list a{
   flex-direction: column;
   line-height: 35px;
 }
+
+div.footer-list a:hover{
+  color: white;
+  text-decoration: underline;
+}
 }
 
   /* For Web */
@@ -62,5 +67,10 @@ div.footer-list a{
   display: flex;
   flex-direction: column;
   padding: 0% 0% 0% 0%;
+}
+
+div.footer-list a:hover{
+  color: white;
+  text-decoration: underline;
 }
 }
