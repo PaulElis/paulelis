@@ -10,6 +10,11 @@ import hero from './images/hero.JPG'
 import './App.css';
 
 class App extends Component {
+
+  carousel = () => {
+    setTimeout(function(){ console.log("Hello"); }, 3000);
+  }
+
   render() {
     return (
       <div className="app">
@@ -17,17 +22,10 @@ class App extends Component {
           <Header />
         </header>
 
-        {/* <div id='scrolling-box'> */}
-
         <div id='app-container'>
           <div id='app-greeting-container'>
+              {this.carousel()}
               <img src={hero} id='hero' alt='oh no!'/>
-              {/* <div id='app-greeting-title'>
-                Developer.
-              </div>
-              <div id='app-greeting-description'>
-                Interested in creating rich user experiences upon a solid foundation of code.
-              </div> */}
               <div id='app-content'>
                 <h2 id='app-title'>Developer.</h2>
                 <h5 id='app-description'>Interested in creating rich user experiences upon a solid foundation of code.</h5>
@@ -35,18 +33,17 @@ class App extends Component {
           </div>
         </div>
 
-          <a name="about" />
-            <About />
+        <a name="about" />
+          <About />
 
-          <a name="skills" />
+        <a name="skills" />
           <Skills />
 
-          <a name="projects" />
+        <a name="projects" />
           <Projects />
 
           <Footer />
 
-        {/* </div> */}
       </div>
     );
   }
