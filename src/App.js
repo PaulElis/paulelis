@@ -5,15 +5,16 @@ import Skills from '../src/components/Skills'
 import Projects from '../src/components/Projects'
 import Footer from '../src/components/Footer'
 import hero from './images/hero.JPG'
+import { Element } from 'react-scroll'
 
 // import {  } from 'semantic-ui-react'
 import './App.css';
 
 class App extends Component {
 
-  carousel = () => {
-    setTimeout(function(){ console.log("Hello"); }, 3000);
-  }
+  // carousel = () => {
+  //   setTimeout(function(){ console.log("Hello"); }, 3000);
+  // }
 
   render() {
     return (
@@ -24,7 +25,7 @@ class App extends Component {
 
         <div id='app-container'>
           <div id='app-greeting-container'>
-              {this.carousel()}
+              {/* {this.carousel()} */}
               <img src={hero} id='hero' alt='oh no!'/>
               <div id='app-content'>
                 <h2 id='app-title'>Developer.</h2>
@@ -33,16 +34,19 @@ class App extends Component {
           </div>
         </div>
 
-        <a name="about" />
+        <Element name="scroll-to-about" className="element">
           <About />
+        </Element>
 
-        <a name="skills" />
+        <Element name="scroll-to-skills" className="element">
           <Skills />
+        </Element>
 
-        <a name="projects" />
+        <Element name="scroll-to-projects" className="element">
           <Projects />
+        </Element>
 
-          <Footer />
+        <Footer />
 
       </div>
     );

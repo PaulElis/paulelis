@@ -1,12 +1,32 @@
 import React, { Component } from 'react';
-// import gmail from '../images/gmail.png'
-// import linkedin from '../images/linkedin.png'
-// import github from '../images/github.png'
-// import { Grid, Image } from 'semantic-ui-react'
 import '../styles/footer.css';
+import { scroller } from 'react-scroll'
 
 
 class Footer extends Component {
+
+  scrollToAbout() {
+    scroller.scrollTo(`scroll-to-about`, {
+      duration: 1200,
+      delay: 0,
+      smooth: 'easeInOutQuart'
+    })
+  }
+  scrollToSkills() {
+    scroller.scrollTo(`scroll-to-skills`, {
+      duration: 1200,
+      delay: 0,
+      smooth: 'easeInOutQuart'
+    })
+  }
+  scrollToProjects() {
+    scroller.scrollTo(`scroll-to-projects`, {
+      duration: 1200,
+      delay: 0,
+      smooth: 'easeInOutQuart'
+    })
+  }
+
   render() {
     return (
         <div id='footer-grid'>
@@ -21,9 +41,13 @@ class Footer extends Component {
           <div className='footer-section'>
             <div className='footer-titles'>Info</div>
               <div className='footer-list'>
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
+                <a className='links' onClick={() => this.scrollToAbout()} >About</a>
+                <a className='links' onClick={() => this.scrollToSkills()} >Skills</a>
+                <a className='links' onClick={() => this.scrollToProjects()} >Projects</a>
+
+                {/* <a href="#about">About</a> */}
+                {/* <a href="#skills">Skills</a> */}
+                {/* <a href="#projects">Projects</a> */}
               </div>
           </div>
         </div>
