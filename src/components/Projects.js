@@ -18,7 +18,8 @@ class Projects extends Component {
                 <a href="https://freestyle-e1af9.firebaseapp.com/login" target="_blank" rel="noopener noreferrer">
                   <img alt='oh no!' src={freestyle} className='project-image' /></a>
                 <div className='middle'>
-                  <div className='project-image-text'>Live Demo</div>
+                  <a href="https://freestyle-e1af9.firebaseapp.com/login" target="_blank" rel="noopener noreferrer">
+                    <div className='project-image-text'>Live Demo</div></a>
                 </div>
               </div>
               <div className='project-description'>
@@ -33,7 +34,8 @@ class Projects extends Component {
                 <a href="https://eatr-4b804.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
                   <img alt='oh no!' src={eatr} className='project-image' /></a>
                 <div className='middle'>
-                  <div className='project-image-text'>Live Demo</div>
+                  <a href="https://eatr-4b804.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
+                    <div className='project-image-text'>Live Demo</div></a>
                 </div>
               </div>
               <div className='project-description'>
