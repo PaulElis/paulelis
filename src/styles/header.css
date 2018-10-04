@@ -1,4 +1,46 @@
-@media (max-width: 991px) {
+@media (max-width: 576px) {
+#header-container {
+  font-size: 3vw;
+  background-color: white;
+  width: 100%;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+#header-title {
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+div.header-list{
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+div.header-list a{
+  color: black;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+}
+
+a.links{
+}
+
+div.header-list a:hover{
+  color: #D4AF37;
+  font-weight: 900;
+  cursor: pointer;
+}
+}
+
+@media (min-width: 577px) {
 #header-container {
   background-color: white;
   width: 100%;
@@ -16,6 +58,13 @@
   text-align: left;
 }
 
+div.header-list{
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
 
 div.header-list a{
   color: black;
@@ -25,11 +74,10 @@ div.header-list a{
 }
 
 a.links{
-  padding-left: 20%;
 }
 
 div.header-list a:hover{
-  color: #415a77;
+  color: #D4AF37;
   font-weight: 900;
   cursor: pointer;
 }
@@ -53,6 +101,14 @@ div.header-list a:hover{
   text-align: left;
 }
 
+div.header-list{
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
 div.header-list a{
   color: black;
   font-family: 'Poiret One', cursive;
@@ -61,11 +117,10 @@ div.header-list a{
 }
 
 a.links{
-  padding-left: 20%;
 }
 
 div.header-list a:hover{
-  color: #415a77;
+  color: #D4AF37;
   font-weight: 900;
   cursor: pointer;
 }
