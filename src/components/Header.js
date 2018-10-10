@@ -28,6 +28,10 @@ class Header extends Component {
     })
   }
 
+  toggleHamburger(){
+    console.log('in hamburger')
+  }
+
   render() {
     return (
       <div id='header-container'>
@@ -35,7 +39,12 @@ class Header extends Component {
           Paul Elis
         </div>
         <MediaQuery query="(max-width: 576px)">
-          <img id='hamburger' src={hamburger} />
+          <img id='hamburger' src={hamburger} onClick={this.toggleHamburger}/>
+          <ul class="menulist">
+            <li><a className='links' onClick={() => this.scrollToAbout()} >About</a></li>
+            <li><a className='links' onClick={() => this.scrollToSkills()} >Skills</a></li>
+            <li><a className='links' onClick={() => this.scrollToProjects()} >Projects</a></li>
+          </ul>
         </MediaQuery>
         <MediaQuery query="(min-width: 577px)">
           <div className='header-list'>
