@@ -1,8 +1,8 @@
 @media (max-width: 576px) {
 #header-container {
+  font-family: 'Poiret One', cursive;
   font-size: 3vw;
   background-color: white;
-  /* width: 100%; */
   padding: 2%;
   display: flex;
   justify-content: space-between;
@@ -10,7 +10,6 @@
 }
 
 #header-title {
-  font-family: 'Poiret One', cursive;
   font-weight: bold;
   letter-spacing: 2px;
   text-align: left;
@@ -20,37 +19,29 @@ img#hamburger{
   height: 1.5em;
 }
 
-div#hamburger-list-container{
-  /* height: 0; */
-}
-
-ul#hamburger-list{
-  height: 0;
-  /* opacity: 0; */
-}
-
-/* div.header-list{
-  width: 80%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: baseline;
-}
-
-div.header-list a{
-  color: black;
+div#hamburger-list{
   font-family: 'Poiret One', cursive;
+  height: 0;
+  float: right;
+  background-color: #111;
+  width: 50%;
+  transition: 0.7s;
+  /* position: fixed; */
+}
+
+div#hamburger-list a{
+  color: #ccc;
   font-weight: bold;
+  font-size: 3vw;
+  letter-spacing: 2px;
+  display: flex;
+  flex-direction: column;
+  line-height: 5vh;
 }
 
-a.links{
+div#hamburger-list a:hover{
+  color: #fff;
 }
-
-div.header-list a:hover{
-  color: #D4AF37;
-  font-weight: 900;
-  cursor: pointer;
-} */
 }
 
 @media (min-width: 577px) {

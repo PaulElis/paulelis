@@ -30,7 +30,7 @@ class Header extends Component {
 
   openHamburger(){
     console.log('in hamburger')
-    document.getElementById('hamburger-list').style.height='250px';
+    document.getElementById('hamburger-list').style.height='150px';
     // document.getElementById('hamburger').style.marginLeft='250px';
   }
 
@@ -55,13 +55,11 @@ class Header extends Component {
         </MediaQuery>
       </div>
         <MediaQuery query="(max-width: 576px)">
-          <div id='hamburger-list-container'>
-            <ul id="hamburger-list">
-              <a className='links' onClick={() => this.scrollToAbout()} ><li>About</li></a>
-              <a className='links' onClick={() => this.scrollToSkills()} ><li>Skills</li></a>
-              <a className='links' onClick={() => this.scrollToProjects()} ><li>Projects</li></a>
-            </ul>
-          </div>
+            <div id="hamburger-list">
+              <a onClick={this.scrollToAbout} >About</a>
+              <a onClick={this.scrollToSkills} >Skills</a>
+              <a onClick={this.scrollToProjects} >Projects</a>
+            </div>
         </MediaQuery>
       </div>
     );
