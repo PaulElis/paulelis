@@ -28,8 +28,10 @@ class Header extends Component {
     })
   }
 
-  toggleHamburger(){
+  openHamburger(){
     console.log('in hamburger')
+    document.getElementById('hamburger-list').style.height='250px';
+    // document.getElementById('hamburger').style.marginLeft='250px';
   }
 
   render() {
@@ -40,11 +42,12 @@ class Header extends Component {
           Paul Elis
         </div>
         <MediaQuery query="(max-width: 576px)">
-          <img id='hamburger' src={hamburger} alt='oh no!' onClick={this.toggleHamburger}/>
+          <img id='hamburger' src={hamburger} alt='oh no!' onClick={this.openHamburger}/>
         </MediaQuery>
 
         <MediaQuery query="(min-width: 577px)">
-          <div className='header-list'>
+          <div id='header-list'>
+            <a href="#" onClick={this.closeHamburger} />
             <a className='links' onClick={() => this.scrollToAbout()} >About</a>
             <a className='links' onClick={() => this.scrollToSkills()} >Skills</a>
             <a className='links' onClick={() => this.scrollToProjects()} >Projects</a>
@@ -52,11 +55,13 @@ class Header extends Component {
         </MediaQuery>
       </div>
         <MediaQuery query="(max-width: 576px)">
-          <ul className="hamburger-list">
-            <a className='links' onClick={() => this.scrollToAbout()} ><li>About</li></a>
-            <a className='links' onClick={() => this.scrollToSkills()} ><li>Skills</li></a>
-            <a className='links' onClick={() => this.scrollToProjects()} ><li>Projects</li></a>
-          </ul>
+          <div id='hamburger-list-container'>
+            <ul id="hamburger-list">
+              <a className='links' onClick={() => this.scrollToAbout()} ><li>About</li></a>
+              <a className='links' onClick={() => this.scrollToSkills()} ><li>Skills</li></a>
+              <a className='links' onClick={() => this.scrollToProjects()} ><li>Projects</li></a>
+            </ul>
+          </div>
         </MediaQuery>
       </div>
     );

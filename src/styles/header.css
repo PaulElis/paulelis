@@ -20,6 +20,15 @@ img#hamburger{
   height: 1.5em;
 }
 
+div#hamburger-list-container{
+  /* height: 0; */
+}
+
+ul#hamburger-list{
+  height: 0;
+  /* opacity: 0; */
+}
+
 /* div.header-list{
   width: 80%;
   display: flex;
