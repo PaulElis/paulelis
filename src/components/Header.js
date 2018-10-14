@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../styles/header.css';
 import { scroller } from 'react-scroll'
 import hamburger from '../images/hamburger.png'
+// import exit from '../images/exit.png'
 import MediaQuery from 'react-responsive';
 
 class Header extends Component {
@@ -30,8 +31,9 @@ class Header extends Component {
 
   openHamburger(){
     console.log('in hamburger')
-    document.getElementById('hamburger-list').style.height='150px';
-    // document.getElementById('hamburger').style.marginLeft='250px';
+    document.getElementById('hamburger-list').style.height='200px';
+    // document.getElementById('hamburger').src='../images/exit.png';
+    document.getElementById('app-container').style.marginTop='200px';
   }
 
   render() {
@@ -45,20 +47,23 @@ class Header extends Component {
           <img id='hamburger' src={hamburger} alt='oh no!' onClick={this.openHamburger}/>
         </MediaQuery>
 
+        {/* Web Menu */}
         <MediaQuery query="(min-width: 577px)">
           <div id='header-list'>
-            <a href="#" onClick={this.closeHamburger} />
-            <a className='links' onClick={() => this.scrollToAbout()} >About</a>
-            <a className='links' onClick={() => this.scrollToSkills()} >Skills</a>
-            <a className='links' onClick={() => this.scrollToProjects()} >Projects</a>
+            <a className='links' onClick={this.scrollToAbout} >About</a>
+            <a className='links' onClick={this.scrollToSkills} >Skills</a>
+            <a className='links' onClick={this.scrollToProjects} >Projects</a>
           </div>
         </MediaQuery>
       </div>
+
+        {/* Mobile Menu */}
         <MediaQuery query="(max-width: 576px)">
             <div id="hamburger-list">
-              <a onClick={this.scrollToAbout} >About</a>
-              <a onClick={this.scrollToSkills} >Skills</a>
-              <a onClick={this.scrollToProjects} >Projects</a>
+              <a id='close-hamburger' onClick={this.closeHamburger}>X</a>
+              <a className='links' onClick={this.scrollToAbout} >About</a>
+              <a className='links' onClick={this.scrollToSkills} >Skills</a>
+              <a className='links' onClick={this.scrollToProjects} >Projects</a>
             </div>
         </MediaQuery>
       </div>

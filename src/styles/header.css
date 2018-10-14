@@ -24,23 +24,29 @@ div#hamburger-list{
   height: 0;
   float: right;
   background-color: #111;
-  width: 50%;
+  width: 30%;
   transition: 0.7s;
+  justify-content: space-between;
   /* position: fixed; */
 }
 
-div#hamburger-list a{
+div#hamburger-list a#close-hamburger{
+  color: red;
+}
+
+div#hamburger-list a.links{
   color: #ccc;
   font-weight: bold;
   font-size: 3vw;
   letter-spacing: 2px;
   display: flex;
   flex-direction: column;
-  line-height: 5vh;
+  /* line-height: 5vh; */
 }
 
 div#hamburger-list a:hover{
   color: #fff;
+  cursor: pointer;
 }
 }
 
@@ -62,7 +68,7 @@ div#hamburger-list a:hover{
   text-align: left;
 }
 
-div.header-list{
+div#header-list{
   width: 30%;
   display: flex;
   flex-direction: row;
@@ -70,7 +76,7 @@ div.header-list{
   align-items: baseline;
 }
 
-div.header-list a{
+div#header-list a{
   color: black;
   font-family: 'Poiret One', cursive;
   font-weight: bold;
@@ -80,10 +86,9 @@ div.header-list a{
 a.links{
 }
 
-div.header-list a:hover{
+div#header-list a:hover{
   color: #D4AF37;
   font-weight: 900;
-  cursor: pointer;
 }
 }
 
@@ -105,7 +110,7 @@ div.header-list a:hover{
   text-align: left;
 }
 
-div.header-list{
+div#header-list{
   width: 30%;
   display: flex;
   flex-direction: row;
@@ -113,7 +118,7 @@ div.header-list{
   align-items: baseline;
 }
 
-div.header-list a{
+div#header-list a{
   color: black;
   font-family: 'Poiret One', cursive;
   font-weight: bold;
@@ -123,7 +128,7 @@ div.header-list a{
 a.links{
 }
 
-div.header-list a:hover{
+div#header-list a:hover{
   color: #D4AF37;
   font-weight: 900;
   cursor: pointer;
