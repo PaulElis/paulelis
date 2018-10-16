@@ -17,21 +17,27 @@
 
 img#hamburger{
   height: 1.5em;
+  cursor: pointer;
 }
 
 div#hamburger-list{
   font-family: 'Poiret One', cursive;
-  height: 0;
+  height: 0px;
   float: right;
   background-color: #111;
   width: 30%;
   transition: 0.7s;
-  justify-content: space-between;
-  /* position: fixed; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 div#hamburger-list a#close-hamburger{
-  color: red;
+  color: #ccc;
+  font-weight: bold;
+  font-size: 3vw;
+  text-align: right;
+  padding-right: 5%;
 }
 
 div#hamburger-list a.links{
@@ -41,7 +47,6 @@ div#hamburger-list a.links{
   letter-spacing: 2px;
   display: flex;
   flex-direction: column;
-  /* line-height: 5vh; */
 }
 
 div#hamburger-list a:hover{
