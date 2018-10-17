@@ -6,7 +6,8 @@
   padding: 2%;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
+  z-index: 100;
 }
 
 #header-title {
@@ -16,14 +17,21 @@
 }
 
 img#hamburger{
-  height: 1.5em;
+  height: 20px;
+  cursor: pointer;
+}
+
+img#exit{
+  height: 16px;
   cursor: pointer;
 }
 
 div#hamburger-list{
-  font-family: 'Poiret One', cursive;
-  height: 0px;
+  height: 250%;
+  /* width: 150px; */
   float: right;
+  font-family: 'Poiret One', cursive;
+  line-height: 4vh;
   background-color: #111;
   width: 30%;
   transition: 0.7s;
@@ -32,16 +40,31 @@ div#hamburger-list{
   justify-content: space-around;
 }
 
-div#hamburger-list a#close-hamburger{
+div#no-list{
+  /* opacity: 0; */
+  transition: 0.7s;
+  height: 0px;
+  width: 0px;
+  float: right;
+  font-family: 'Poiret One', cursive;
+  background-color: #111;
+  width: 30%;
+  transition: 0.7s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* div#hamburger-list a#close-hamburger{
   color: #ccc;
   font-weight: bold;
   font-size: 3vw;
   text-align: right;
   padding-right: 5%;
-}
+} */
 
 div#hamburger-list a.links{
-  color: #ccc;
+  color: #fff;
   font-weight: bold;
   font-size: 3vw;
   letter-spacing: 2px;
@@ -50,7 +73,7 @@ div#hamburger-list a.links{
 }
 
 div#hamburger-list a:hover{
-  color: #fff;
+  color: red;
   cursor: pointer;
 }
 }

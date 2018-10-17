@@ -33,25 +33,25 @@ class Header extends Component {
     })
   }
 
-  openHamburger(){
-    console.log('in openhamburger')
-    document.getElementById('hamburger-list').style.height='200px';
-    document.getElementById('hamburger-list').style.width='150px';
-    document.getElementById('app-container').style.marginTop='200px';
-  }
-
-  closeHamburger(){
-    console.log('in closehamburger')
-    document.getElementById('hamburger-list').style.height='0px';
-    document.getElementById('hamburger-list').style.width='0px';
-    document.getElementById('app-container').style.marginTop='0px';
-  }
+  // openHamburger(){
+  //   console.log('in openhamburger')
+  //   document.getElementById('hamburger-list').style.height='200px';
+  //   document.getElementById('hamburger-list').style.width='150px';
+  //   document.getElementById('app-container').style.marginTop='200px';
+  // }
+  //
+  // closeHamburger(){
+  //   console.log('in closehamburger')
+  //   document.getElementById('hamburger-list').style.height='0px';
+  //   document.getElementById('hamburger-list').style.width='0px';
+  //   document.getElementById('app-container').style.marginTop='0px';
+  // }
 
   toggleHamburger = () => {
     this.setState({ toggled: !this.state.toggled })
-    document.getElementById('hamburger-list').style.height='200px';
-    document.getElementById('hamburger-list').style.width='150px';
-    document.getElementById('app-container').style.marginTop='200px';
+    // document.getElementById('hamburger-list').style.height='200px';
+    // document.getElementById('hamburger-list').style.width='150px';
+    // document.getElementById('app-container').style.marginTop='200px';
   }
 
   render() {
@@ -65,8 +65,9 @@ class Header extends Component {
         </div>
         <MediaQuery query="(max-width: 576px)">
           {/* <img id='hamburger' src={toggled ? exit : hamburger} alt='oh no!' onClick={this.openHamburger}/> */}
-          <img id='hamburger' src={toggled ? exit : hamburger} alt='oh no!' onClick={this.toggleHamburger}/>
+          <img id={toggled ? "exit" : "hamburger"} src={toggled ? exit : hamburger} alt='oh no!' onClick={this.toggleHamburger} /*onMouseLeave={this.toggleHamburger}*/ />
         </MediaQuery>
+
 
         {/* Web Menu */}
         <MediaQuery query="(min-width: 577px)">
@@ -80,11 +81,13 @@ class Header extends Component {
 
         {/* Mobile Menu */}
         <MediaQuery query="(max-width: 576px)">
-            <div id="hamburger-list">
-              {/* <a id='close-hamburger' onClick={this.closeHamburger}>X</a> */}
-              <a className='links' onClick={this.scrollToAbout} >About</a>
-              <a className='links' onClick={this.scrollToSkills} >Skills</a>
-              <a className='links' onClick={this.scrollToProjects} >Projects</a>
+            <div id={toggled ? "hamburger-list" : "no-list"} >
+              {this.state.toggled ?
+                <div id="hamburger-list2">
+                  <a className='links' onClick={this.scrollToAbout} >About</a>
+                  <a className='links' onClick={this.scrollToSkills} >Skills</a>
+                  <a className='links' onClick={this.scrollToProjects} >Projects</a>
+                </div> : "" }
             </div>
         </MediaQuery>
       </div>
