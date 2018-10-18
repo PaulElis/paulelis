@@ -1,31 +1,9 @@
 import React, { Component } from 'react';
 import '../styles/footer.css';
-import { scroller } from 'react-scroll'
+// import { scroller } from 'react-scroll'
 
 
 class Footer extends Component {
-
-  scrollToAbout() {
-    scroller.scrollTo(`scroll-to-about`, {
-      duration: 1200,
-      delay: 0,
-      smooth: 'easeInOutQuart'
-    })
-  }
-  scrollToSkills() {
-    scroller.scrollTo(`scroll-to-skills`, {
-      duration: 1200,
-      delay: 0,
-      smooth: 'easeInOutQuart'
-    })
-  }
-  scrollToProjects() {
-    scroller.scrollTo(`scroll-to-projects`, {
-      duration: 1200,
-      delay: 0,
-      smooth: 'easeInOutQuart'
-    })
-  }
 
   render() {
     return (

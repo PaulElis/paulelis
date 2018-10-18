@@ -1,32 +1,23 @@
 @media (max-width: 991px) {
-/* #footer-grid{
-  font-size: 16px;
-  letter-spacing: 1px;
-  padding: 1% 0% 1% 0%;
-} */
-
 div.footer-list{
-  /* font-size: 4vh; */
   font-family: 'Poiret One', cursive;
   background-color: #415a77;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 0% 2% 0% 2%;
+  justify-content: space-around;
+  align-items: baseline;
+  padding-top: 2%;
 }
 
 p.footer-titles{
   color: white;
   font-weight: bold;
-  line-height: 35px;
 }
 
 div.footer-list a{
   color: #D4AF37;
   font-size: 12px;
-  /* line-height: 35px; */
 }
-
 
 div.footer-list a:hover{
   color: white;
@@ -36,41 +27,29 @@ div.footer-list a:hover{
 }
 
 @media (min-width: 992px) {
-#footer-grid{
-  background-color: #415a77;
-  text-align: left;
-  font-size: 18px;
-  font-weight: bold;
-  font-family: 'Poiret One', cursive;
-  letter-spacing: 1px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-items: center;
-  padding: 1% 0% 1% 0%;
-}
+  div.footer-list{
+    font-family: 'Poiret One', cursive;
+    background-color: #415a77;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-top: 1%;
+  }
 
-div.footer-section{
-}
+  p.footer-titles{
+    color: white;
+    font-weight: bold;
+  }
 
-div.footer-titles{
-  color: white;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 40px;
-}
+  div.footer-list a{
+    color: #D4AF37;
+    font-size: 12px;
+  }
 
-div.footer-list a{
-  color: #D4AF37;
-  font-size: 16px;
-  line-height: 40px;
-  display: flex;
-  flex-direction: column;
-  padding: 0% 0% 0% 0%;
-}
-
-div.footer-list a:hover{
-  color: white;
-  text-decoration: underline;
-  cursor: pointer;
-}
+  div.footer-list a:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+  }
 }
