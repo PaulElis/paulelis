@@ -26,42 +26,39 @@ img#exit{
   cursor: pointer;
 }
 
+div#hamburger-container{
+  /* width: 30%;
+  float: right;
+  background-color: yellow;
+  height: 50px; */
+}
+
 div#hamburger-list{
-  height: 250%;
-  /* width: 150px; */
+  /* height: 450%; */
+  width: 30%;
   float: right;
   font-family: 'Poiret One', cursive;
   line-height: 4vh;
   background-color: #111;
-  width: 30%;
   transition: 0.7s;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  z-index: 1000;
 }
 
 div#no-list{
-  /* opacity: 0; */
   transition: 0.7s;
   height: 0px;
   width: 0px;
   float: right;
   font-family: 'Poiret One', cursive;
   background-color: #111;
-  width: 30%;
   transition: 0.7s;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-
-/* div#hamburger-list a#close-hamburger{
-  color: #ccc;
-  font-weight: bold;
-  font-size: 3vw;
-  text-align: right;
-  padding-right: 5%;
-} */
 
 div#hamburger-list a.links{
   color: #fff;
@@ -72,7 +69,7 @@ div#hamburger-list a.links{
   flex-direction: column;
 }
 
-div#hamburger-list a:hover{
+div#hamburger-list a.links:hover{
   color: red;
   cursor: pointer;
 }

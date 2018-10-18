@@ -3,9 +3,12 @@
     color: black;
     text-align: center; }
 
+  #app-container {
+    z-index: 1; }
+
   #app-greeting-container {
     color: white;
-    position: relative;
+    position: absolute;
     text-align: center;
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;

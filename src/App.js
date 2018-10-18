@@ -23,16 +23,15 @@ class App extends Component {
           <Header />
         </header>
 
-        <div id='app-container'>
+        {/* <div id='app-container'> */}
           <div id='app-greeting-container'>
-              {/* {this.carousel()} */}
               <img src={hero} id='hero' alt='oh no!'/>
               <div id='app-content'>
                 <h2 id='app-title'>Developer.</h2>
                 <h5 id='app-description'>Interested in creating rich user experiences upon a solid foundation of code.</h5>
               </div>
           </div>
-        </div>
+        {/* </div> */}
 
         <Element name="scroll-to-about" className="element">
           <About />
