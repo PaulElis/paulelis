@@ -29,6 +29,7 @@ img#exit{
 }
 
 div#hamburger-container{
+  position: inherit;
   /* width: 30%;
   float: right;
   background-color: yellow;
@@ -36,17 +37,17 @@ div#hamburger-container{
 }
 
 div#hamburger-list{
-  /* height: 450%; */
-  width: 30%;
-  float: right;
+  position: fixed;
+  height: 150px;
+  width: 40%;
   font-family: 'Poiret One', cursive;
-  line-height: 4vh;
   background-color: #111;
   transition: 0.7s;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   z-index: 1000;
+  margin-left: 60%;
 }
 
 div#no-list{
@@ -66,7 +67,7 @@ div#hamburger-list a.links{
   color: #fff;
   font-weight: bold;
   font-size: 3vw;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   display: flex;
   flex-direction: column;
 }

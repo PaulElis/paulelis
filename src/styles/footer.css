@@ -11,16 +11,18 @@ div.footer-list{
 
 p.footer-titles{
   color: white;
+  font-size: 3vw;
   font-weight: bold;
 }
 
 div.footer-list a{
   color: #D4AF37;
-  font-size: 12px;
+  font-size: 2.5vw;
 }
 
 div.footer-list a:hover{
   color: white;
+  font-size: 3vw;
   text-decoration: underline;
   cursor: pointer;
 }

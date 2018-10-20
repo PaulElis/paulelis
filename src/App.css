@@ -3,12 +3,9 @@
     color: black;
     text-align: center; }
 
-  #app-container {
-    z-index: 1; }
-
   #app-greeting-container {
     color: white;
-    position: absolute;
+    position: relative;
     text-align: center;
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
@@ -16,11 +13,15 @@
     transition: opacity 1s ease-in-out;
     height: 600px; }
 
+  img#hero {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 25% -40%; }
+
   div#app-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-35%, -50%); }
+    width: 50%;
+    transform: translate(70%, -600%); }
 
   h2#app-title {
     font-size: 4vh;
@@ -29,13 +30,7 @@
 
   h5#app-description {
     font-size: 1.5vh;
-    font-family: "Poiret One", cursive; }
-
-  img#hero {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: 25% -40%; } }
+    font-family: "Poiret One", cursive; } }
 @media (min-width: 576px) {
   .app {
     color: black;
