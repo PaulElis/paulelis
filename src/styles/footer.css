@@ -1,4 +1,3 @@
-@media (max-width: 991px) {
 div.footer-list{
   font-family: 'Poiret One', cursive;
   background-color: #415a77;
@@ -11,18 +10,45 @@ div.footer-list{
 
 p.footer-titles{
   color: white;
-  font-size: 3vw;
+  font-size: 3.5vw;
   font-weight: bold;
 }
 
 div.footer-list a{
   color: #D4AF37;
-  font-size: 2.5vw;
+  font-size: 3vw;
 }
 
 div.footer-list a:hover{
   color: white;
-  font-size: 3vw;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (min-width: 576px) {
+div.footer-list{
+  font-family: 'Poiret One', cursive;
+  background-color: #415a77;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+  padding-top: 2%;
+}
+
+p.footer-titles{
+  color: white;
+  font-size: 2.5vw;
+  font-weight: bold;
+}
+
+div.footer-list a{
+  color: #D4AF37;
+  font-size: 2vw;
+}
+
+div.footer-list a:hover{
+  color: white;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -42,11 +68,41 @@ div.footer-list a:hover{
   p.footer-titles{
     color: white;
     font-weight: bold;
+    font-size: 2vw;
   }
 
   div.footer-list a{
     color: #D4AF37;
-    font-size: 12px;
+    font-size: 1.5vw;
+  }
+
+  div.footer-list a:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1200px) {
+  div.footer-list{
+    font-family: 'Poiret One', cursive;
+    background-color: #415a77;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-top: 1%;
+  }
+
+  p.footer-titles{
+    color: white;
+    font-weight: bold;
+    font-size: 1.25vw;
+  }
+
+  div.footer-list a{
+    color: #D4AF37;
+    font-size: 1vw;
   }
 
   div.footer-list a:hover{

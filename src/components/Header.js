@@ -11,41 +11,30 @@ class Header extends Component {
     toggled: false
   }
 
-  scrollToAbout() {
+  scrollToAbout = () => {
     scroller.scrollTo(`scroll-to-about`, {
       duration: 1200,
       delay: 0,
       smooth: 'easeInOutQuart'
     })
+    this.setState({ toggled: !this.state.toggled })
   }
-  scrollToSkills() {
+  scrollToSkills = () => {
     scroller.scrollTo(`scroll-to-skills`, {
       duration: 1200,
       delay: 0,
       smooth: 'easeInOutQuart'
     })
+    this.setState({ toggled: !this.state.toggled })
   }
-  scrollToProjects() {
+  scrollToProjects = () => {
     scroller.scrollTo(`scroll-to-projects`, {
       duration: 1200,
       delay: 0,
       smooth: 'easeInOutQuart'
     })
+    this.setState({ toggled: !this.state.toggled })
   }
-
-  // openHamburger(){
-  //   console.log('in openhamburger')
-  //   document.getElementById('hamburger-list').style.height='200px';
-  //   document.getElementById('hamburger-list').style.width='150px';
-  //   document.getElementById('app-container').style.marginTop='200px';
-  // }
-  //
-  // closeHamburger(){
-  //   console.log('in closehamburger')
-  //   document.getElementById('hamburger-list').style.height='0px';
-  //   document.getElementById('hamburger-list').style.width='0px';
-  //   document.getElementById('app-container').style.marginTop='0px';
-  // }
 
   toggleHamburger = () => {
     this.setState({ toggled: !this.state.toggled })

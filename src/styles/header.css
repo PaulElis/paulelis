@@ -8,6 +8,7 @@
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+  height: 40px;
   width: 100%;
   position: fixed;
 }
@@ -29,7 +30,7 @@ img#exit{
 }
 
 div#hamburger-container{
-  position: inherit;
+  /* position: inherit; */
   /* width: 30%;
   float: right;
   background-color: yellow;
@@ -37,6 +38,7 @@ div#hamburger-container{
 }
 
 div#hamburger-list{
+  margin-top: 40px;
   position: fixed;
   height: 150px;
   width: 40%;
@@ -51,7 +53,6 @@ div#hamburger-list{
 }
 
 div#no-list{
-  transition: 0.7s;
   height: 0px;
   width: 0px;
   float: right;
@@ -151,6 +152,49 @@ div#header-list a{
   font-family: 'Poiret One', cursive;
   font-weight: bold;
   font-size: 1.5vw;
+}
+
+a.links{
+}
+
+div#header-list a:hover{
+  color: #D4AF37;
+  font-weight: 900;
+  cursor: pointer;
+}
+}
+
+@media (min-width: 1200px) {
+#header-container {
+  background-color: white;
+  width: 100%;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+#header-title {
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  font-size: 1.25vw;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+div#header-list{
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+div#header-list a{
+  color: black;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  font-size: 1.25vw;
 }
 
 a.links{
