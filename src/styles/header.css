@@ -35,16 +35,17 @@ div#hamburger-container{
   float: right;
   background-color: yellow;
   height: 50px; */
+  transition: 0.7s;
 }
 
-div#hamburger-list{
+div.hamburger-list{
   margin-top: 40px;
   position: fixed;
   height: 150px;
   width: 40%;
   font-family: 'Poiret One', cursive;
   background-color: #111;
-  transition: 0.7s;
+  transition: height 0.7s;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -52,13 +53,13 @@ div#hamburger-list{
   margin-left: 60%;
 }
 
-div#no-list{
+div.no-list{
   height: 0px;
   width: 0px;
   float: right;
   font-family: 'Poiret One', cursive;
   background-color: #111;
-  transition: 0.7s;
+  transition: height 0.7s;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

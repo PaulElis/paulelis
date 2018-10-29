@@ -72,7 +72,7 @@ class Header extends Component {
         <MediaQuery query="(max-width: 576px)">
             <div id='hamburger-container' >
               {this.state.toggled ?
-                <div id={toggled ? "hamburger-list" : "no-list"} >
+                <div className={toggled ? "hamburger-list" : "no-list"} >
                   <a className='links' onClick={this.scrollToAbout} >About</a>
                   <a className='links' onClick={this.scrollToSkills} >Skills</a>
                   <a className='links' onClick={this.scrollToProjects} >Projects</a>
