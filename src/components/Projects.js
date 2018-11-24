@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import jam from '../images/jam.png'
 import freestyle from '../images/freestyle.png'
 import eatr from '../images/eatr.png'
 import '../styles/projects.css';
@@ -11,6 +12,22 @@ class Projects extends Component {
             Projects
           </div>
         <div id='project-grid'>
+
+          <div className='project-section'>
+            <div className='project-content'>
+              <div className='project-image-container'>
+                <a href="https://jam-app-24722.firebaseapp.com" target="_blank" rel="noopener noreferrer">
+                <img alt='oh no!' src={jam} className='project-image' /></a>
+                  <div className='middle'>
+                    <a href="https://jam-app-24722.firebaseapp.com" target="_blank" rel="noopener noreferrer">
+                    <div className='project-image-text'>Live Demo</div></a>
+                  </div>
+              </div>
+              <div className='project-description'>
+                Use Last.fm's API to see top artists and save your favorite artists + albums.
+              </div>
+            </div>
+          </div>
 
           <div className='project-section'>
             <div className='project-content'>
