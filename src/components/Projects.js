@@ -13,8 +13,8 @@ class Projects extends Component {
           </div>
         <div id='project-grid'>
 
-          <div className='project-section'>
-            <div className='project-content'>
+          <div className='project-section' id='one'>
+            <div className='project-content' id='one'>
               <div className='project-image-container'>
                 <a href="https://jam-app-24722.firebaseapp.com" target="_blank" rel="noopener noreferrer">
                 <img alt='oh no!' src={jam} className='project-image' /></a>
@@ -24,7 +24,7 @@ class Projects extends Component {
                   </div>
               </div>
               <div className='project-description'>
-                Use Last.fm's API to see top artists and save your favorite artists + albums.
+                Use Last.fm's API to see top artists of the day, search and save artists + albums to your favorites.
               </div>
             </div>
           </div>
@@ -56,7 +56,7 @@ class Projects extends Component {
                   </div>
               </div>
               <div className='project-description'>
-                An update to a popular app with a more visually appetizing interface.
+                A Yelp update with a more visually appetizing interface.
               </div>
             </div>
           </div>

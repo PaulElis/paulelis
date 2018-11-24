@@ -3,7 +3,7 @@
     color: black;
     font-family: "Poiret One", cursive;
     background-color: white;
-    padding: 30% 0% 30% 0%; }
+    padding: 15% 0% 10% 0%; }
 
   #about-title {
     color: #D4AF37;
@@ -16,13 +16,13 @@
     font-size: 18px;
     letter-spacing: 2px;
     line-height: 35px;
-    padding: 10% 10% 0% 10%; } }
+    padding: 5% 10% 0% 10%; } }
 @media (min-width: 992px) {
   #about-container {
     color: black;
     font-family: "Poiret One", cursive;
     background-color: white;
-    padding: 15% 0% 15% 0%; }
+    padding: 5% 0% 5% 0%; }
 
   #about-title {
     color: #D4AF37;
