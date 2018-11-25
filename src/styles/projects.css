@@ -102,9 +102,8 @@ div#project-component{
 }
 
 div.project-section{
-  background-color: #eee;
+  /* background-color: #eee; */
   border-radius: 5px;
-  border: 1px solid #eee;
   margin: 0% 25% 5% 25%;
   padding: 1% 1% 0% 1%;
 }
@@ -185,9 +184,6 @@ div#one.project-section{
 }
 
 div.project-section{
-  background-color: #eee;
-  border-radius: 5px;
-  border: 1px solid #eee;
   margin: 0% 5% 5% 5%;
 }
 
@@ -228,6 +224,13 @@ div.project-image-text{
 }
 
 div.project-content{
+}
+
+div.project-content{
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 2%;
+  background-color: #eee;
 }
 
 div.project-description{
