@@ -25,7 +25,7 @@ class Skills extends Component {
           </div>
 
         <div className='skills-section'>
-            <div className='skills-title' id='skills-title-2'>Frameworks</div>
+            <div className='skills-title' id='skills-title-2'>Frameworks + Libraries</div>
             <div className='skills-list'>
               React, React Native, Ruby on Rails, Sinatra, Rack
             </div>

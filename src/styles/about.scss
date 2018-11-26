@@ -3,7 +3,6 @@ $title-color: #D4AF37;
 $title-spacing: 2px;
 $content-spacing: 2px;
 
-@media (max-width: 991px) {
 #about-container{
   color: black;
   font-family: $font;
@@ -16,7 +15,6 @@ $content-spacing: 2px;
   font-size: 36px;
   font-weight: bold;
   letter-spacing: $title-spacing;
-  padding: 0% 0% 0% 0%;
 }
 
 #about-content{
@@ -25,28 +23,32 @@ $content-spacing: 2px;
   line-height: 35px;
   padding: 5% 10% 0% 10%;
 }
+
+@media (min-width: 768px) {
+#about-container{
+  padding: 5% 0% 5% 0%;
+}
 }
 
 @media (min-width: 992px) {
 #about-container{
-  color: black;
-  font-family: $font;
-  background-color: white;
   padding: 5% 0% 5% 0%;
 }
 
 #about-title{
-  color: $title-color;
   font-size: 40px;
-  font-weight: bold;
-  letter-spacing: $title-spacing;
   padding: 0% 0% 3% 0%;
 }
 
 #about-content{
   font-size: 18px;
-  letter-spacing: $content-spacing;
-  line-height: 35px;
-  padding: 0% 20% 0% 20%;
+  padding: 0% 12% 0% 12%;
+}
+}
+
+@media (min-width: 992px) {
+#about-content{
+  font-size: 18px;
+  padding: 0% 18% 0% 18%;
 }
 }
