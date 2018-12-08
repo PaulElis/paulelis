@@ -25,18 +25,12 @@ div.skills-list{
   padding: 7% 5% 0% 5%;
 }
 
-@media (min-width: 768px) {
-
-}
-
 @media (min-width: 992px) {
 #skills-component{
   padding: 7% 0% 7% 0%;
 }
 
 div#skills-grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   padding: 0% 5% 0% 5%;
 }
 
@@ -58,4 +52,17 @@ div.skills-list{
   letter-spacing: 2px;
   padding: 7% 0% 0% 0%;
 }
+}
+
+@media (min-width: 1200px) {
+div#skills-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0% 5% 0% 5%;
+}
+
+div#skills-title-2.skills-title{
+  padding-top: 10%;
+}
+
 }
