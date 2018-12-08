@@ -1,68 +1,80 @@
 #skills-component{
-  display: flex;
-  flex-direction: column;
-  padding: 10% 0% 10% 0%;
+  padding: 5%;
   background-image: linear-gradient(#486484, #415a77, #486484);
 }
 
-div#skills-title-2.skills-title{
-  padding-top: 10%;
+div#skills-grid{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
 }
 
 div.skills-title{
   color: white;
-  font-size: 20px;
+  font-size: 4vw;
   font-style: italic;
   letter-spacing: 3px;
-  padding: 0% 0% 0% 0%;
+  padding-bottom: 3%;
 }
 
 div.skills-list{
   color: white;
-  font-size: 16px;
+  font-size: 2vw;
   letter-spacing: 2px;
   line-height: 30px;
-  padding: 7% 5% 0% 5%;
+}
+
+div#skills-title-spacing.skills-title{
+  padding-top: 2%;
+}
+
+@media (min-width: 576px) {
+div#skills-title-spacing.skills-title{
+  padding-top: 4%;
+}
+}
+
+@media (min-width: 768px) {
+div.skills-title{
+  font-size: 3vw;
+}
+
+div.skills-list{
+  font-size: 1.75vw;
+}
 }
 
 @media (min-width: 992px) {
-#skills-component{
-  padding: 7% 0% 7% 0%;
-}
-
-div#skills-grid{
-  padding: 0% 5% 0% 5%;
-}
-
 div.skills-title{
-  color: white;
-  font-style: italic;
-  font-size: 20px;
-  letter-spacing: 3px;
-  padding: 0% 0% 0% 0%;
-}
-
-div#skills-title-2.skills-title{
-  padding-top: 0%;
+  font-size: 2.25vw;
 }
 
 div.skills-list{
-  color: white;
-  font-size: 16px;
-  letter-spacing: 2px;
-  padding: 7% 0% 0% 0%;
+  font-size: 1.25vw;
 }
 }
 
 @media (min-width: 1200px) {
+#skills-component{
+  padding: 7%;
+}
+
 div#skills-grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 0% 5% 0% 5%;
+  grid-template-rows: 0fr;
+  align-items: flex-start;
+}
+div.skills-title{
+  font-size: 1.8vw;
+  padding-bottom: 8%;
 }
 
-div#skills-title-2.skills-title{
-  padding-top: 10%;
+div.skills-list{
+  font-size: 1vw;
 }
 
+div#skills-title-spacing.skills-title{
+  padding-top: 0%;
+}
 }
