@@ -9,7 +9,6 @@ div.footer-list{
 }
 
 p.footer-titles{
-  color: white;
   font-size: 3.5vw;
   font-weight: bold;
 }
@@ -28,11 +27,6 @@ div.footer-list a:hover{
   color: white;
   text-decoration: underline;
   cursor: pointer;
-}
-
-div.footer-list p:hover{
-  color: white;
-  text-decoration: underline;
 }
 
 @media (min-width: 576px) {
