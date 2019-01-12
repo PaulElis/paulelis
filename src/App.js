@@ -7,7 +7,6 @@ import Footer from '../src/components/Footer'
 import hero from './images/hero.JPG'
 import { Element } from 'react-scroll'
 
-// import {  } from 'semantic-ui-react'
 import './App.css';
 
 class App extends Component {
@@ -22,8 +21,6 @@ class App extends Component {
         <header>
           <Header />
         </header>
-
-        {/* <div id='app-container'> */}
           <div id='app-greeting-container'>
               <img src={hero} id='hero' alt='oh no!'/>
               <div id='app-content'>
@@ -31,17 +28,16 @@ class App extends Component {
                 <h5 id='app-description'>Interested in creating rich user experiences upon a solid foundation of code.</h5>
               </div>
           </div>
-        {/* </div> */}
 
-        <Element name="scroll-to-about" className="element">
+        <Element name="scroll-to-About" className="element">
           <About />
         </Element>
 
-        <Element name="scroll-to-skills" className="element">
+        <Element name="scroll-to-Skills" className="element">
           <Skills />
         </Element>
 
-        <Element name="scroll-to-projects" className="element">
+        <Element name="scroll-to-Projects" className="element">
           <Projects />
         </Element>
 

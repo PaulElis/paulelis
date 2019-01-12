@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import '../styles/footer.css';
-// import { scroller } from 'react-scroll'
-
 
 class Footer extends Component {
 
