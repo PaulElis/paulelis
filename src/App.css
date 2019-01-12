@@ -15,7 +15,7 @@
   height: 600px;
 }
 
-img#hero {
+img#main {
   margin-top: 40px;
   width: 100%;
   height: 100%;
@@ -59,7 +59,7 @@ h5#app-description {
   font-size: 2vw;
 }
 
-img#hero {
+img#main {
   margin-top: 0px;
   object-position: 0% 0%;
 }
@@ -83,7 +83,7 @@ h5#app-description {
   font-size: 1.5vw;
 }
 
-img#hero {
+img#main {
   object-position: 25% 40%;
 }
 }
@@ -97,7 +97,7 @@ h2#app-title {
   line-height: 1.5vw;
 }
 
-img#hero {
+img#main {
   object-position: 5% 40%;
 }
 }
@@ -107,7 +107,7 @@ img#hero {
   height: 660px;
 }
 
-img#hero {
+img#main {
   object-position: 45% 40%;
 }
 
