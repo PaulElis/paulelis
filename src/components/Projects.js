@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
-import jam from '../images/jam.png'
-import freestyle from '../images/freestyle.png'
-import eatr from '../images/eatr.png'
+import jam from '../images/jam/jam.jpg'
+import jamXL from '../images/jam/jamXL.jpg'
+import freestyle from '../images/freestyle/freestyle.jpg'
+import freestyleXL from '../images/freestyle/freestyleXL.jpg'
+import eatr from '../images/eatr/eatr.jpg'
+import eatrXL from '../images/eatr/eatrXL.jpg'
 import '../styles/projects.css';
 
 class Projects extends Component {
@@ -17,7 +20,11 @@ class Projects extends Component {
             <div className='project-content' id='one'>
               <div className='project-image-container'>
                 <a href="https://jam-app-24722.firebaseapp.com" target="_blank" rel="noopener noreferrer">
-                <img alt='oh no!' src={jam} className='project-image' /></a>
+                <picture>
+                  <img alt='oh no!' src={jam} className='project-image' />
+                  <source media="(min-width: 576px)" srcSet={jamXL} />
+                </picture>
+                </a>
                   <div className='middle'>
                     <a href="https://jam-app-24722.firebaseapp.com" target="_blank" rel="noopener noreferrer">
                     <div className='project-image-text'>Live Demo</div></a>
@@ -33,7 +40,11 @@ class Projects extends Component {
             <div className='project-content'>
               <div className='project-image-container'>
                 <a href="https://freestyle-e1af9.firebaseapp.com/login" target="_blank" rel="noopener noreferrer">
-                <img alt='oh no!' src={freestyle} className='project-image' /></a>
+                <picture>
+                  <img alt='oh no!' src={freestyle} className='project-image' />
+                  <source media="(min-width: 576px)" srcSet={freestyleXL} />
+                </picture>
+                </a>
                   <div className='middle'>
                     <a href="https://freestyle-e1af9.firebaseapp.com/login" target="_blank" rel="noopener noreferrer">
                     <div className='project-image-text'>Live Demo</div></a>
@@ -49,7 +60,11 @@ class Projects extends Component {
             <div className='project-content'>
               <div className='project-image-container'>
                 <a href="https://eatr-4b804.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
-                <img alt='oh no!' src={eatr} className='project-image' /></a>
+                <picture>
+                  <img alt='oh no!' src={eatr} className='project-image' />
+                  <source media="(min-width: 576px)" srcSet={eatrXL} />
+                </picture>
+                </a>
                   <div className='middle'>
                     <a href="https://eatr-4b804.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
                     <div className='project-image-text'>Live Demo</div></a>
