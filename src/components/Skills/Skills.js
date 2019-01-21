@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
-import '../styles/skills.css';
+import './skills.css';
 
 class Skills extends Component {
   render() {
     return (
       <div id='skills-component'>
-        <div id='skills-header'>
-          {/* Skills */}
-        </div>
-
         <div id='skills-grid'>
+
           <div className='skills-section'>
             <div className='skills-title'>Languages</div>
             <div className='skills-list'>
@@ -17,19 +14,19 @@ class Skills extends Component {
             </div>
           </div>
 
-        <div className='skills-section'>
+          <div className='skills-section'>
             <div className='skills-title' id='skills-title-spacing'>Frameworks + Libraries</div>
             <div className='skills-list'>
               React, React Native, Ruby on Rails, Redux
             </div>
-        </div>
+          </div>
 
-        <div className='skills-section'>
+          <div className='skills-section'>
             <div className='skills-title' id='skills-title-spacing'>Databases</div>
             <div className='skills-list'>
               PostgreSQL, SQLite
             </div>
-        </div>
+          </div>
 
         </div>
 

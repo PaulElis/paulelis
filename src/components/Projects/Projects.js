@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import jam from '../images/jam/jam.jpg'
-import jamXL from '../images/jam/jamXL.jpg'
-import freestyle from '../images/freestyle/freestyle.jpg'
-import freestyleXL from '../images/freestyle/freestyleXL.jpg'
-import eatr from '../images/eatr/eatr.jpg'
-import eatrXL from '../images/eatr/eatrXL.jpg'
-import '../styles/projects.css';
+import jam from '../../images/jam/jam.jpg'
+import jamXL from '../../images/jam/jamXL.jpg'
+import freestyle from '../../images/freestyle/freestyle.jpg'
+import freestyleXL from '../../images/freestyle/freestyleXL.jpg'
+import eatr from '../../images/eatr/eatr.jpg'
+import eatrXL from '../../images/eatr/eatrXL.jpg'
+import './projects.css';
 
 class Projects extends Component {
   render() {

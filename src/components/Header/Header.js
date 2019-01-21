@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import '../styles/header.css';
+import './header.css';
 import { scroller } from 'react-scroll'
-import hamburger from '../images/hamburger.png'
-import exit from '../images/exit.png'
+import hamburger from '../../images/hamburger.png'
+import exit from '../../images/exit.png'
 import MediaQuery from 'react-responsive';
 
 class Header extends Component {
