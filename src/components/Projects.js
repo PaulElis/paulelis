@@ -21,7 +21,7 @@ class Projects extends Component {
               <div className='project-image-container'>
                 <a href="https://jam-app-24722.firebaseapp.com" target="_blank" rel="noopener noreferrer">
                 <picture>
-                  <img alt='oh no!' src={jam} className='project-image' />
+                  <img alt='oh no!' src={jam} className='project-image fade-in' />
                   <source media="(min-width: 576px)" srcSet={jamXL} />
                 </picture>
                 </a>
@@ -41,7 +41,7 @@ class Projects extends Component {
               <div className='project-image-container'>
                 <a href="https://freestyle-e1af9.firebaseapp.com/login" target="_blank" rel="noopener noreferrer">
                 <picture>
-                  <img alt='oh no!' src={freestyle} className='project-image' />
+                  <img alt='oh no!' src={freestyle} className='project-image fade-in' />
                   <source media="(min-width: 576px)" srcSet={freestyleXL} />
                 </picture>
                 </a>
@@ -61,7 +61,7 @@ class Projects extends Component {
               <div className='project-image-container'>
                 <a href="https://eatr-4b804.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
                 <picture>
-                  <img alt='oh no!' src={eatr} className='project-image' />
+                  <img alt='oh no!' src={eatr} className='project-image fade-in' />
                   <source media="(min-width: 576px)" srcSet={eatrXL} />
                 </picture>
                 </a>
