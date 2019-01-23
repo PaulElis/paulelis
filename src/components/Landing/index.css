@@ -1,0 +1,128 @@
+#app-greeting-container {
+  color: white;
+  font-family: "Poiret One", cursive;
+  position: relative;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  height: 600px;
+}
+
+img#main {
+  margin-top: 40px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 25% -40%;
+}
+
+div#app-content {
+  width: 50%;
+  transform: translate(70%, -600%);
+}
+
+h2#app-title {
+  font-size: 4vh;
+  font-family: "Poiret One", cursive;
+  line-height: 0vh;
+}
+
+h5#app-description {
+  font-size: 1.5vh;
+  font-family: "Poiret One", cursive;
+}
+
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; }}
+
+.fade-in {
+  opacity:0;
+  animation: fadeIn ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+}
+
+@media (min-width: 576px) {
+#app-greeting-container {
+  height: 500px;
+}
+
+div#app-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+}
+
+h2#app-title {
+  font-size: 5vw;
+}
+
+h5#app-description {
+  font-size: 2vw;
+}
+
+img#main {
+  margin-top: 0px;
+  object-position: 0% 0%;
+}
+}
+
+@media (min-width: 768px) {
+#app-greeting-container {
+  height: 430px;
+}
+
+div#app-content {
+  transform: translate(-40%, -50%);
+}
+
+h2#app-title {
+  font-size: 4.5vw;
+  line-height: .5vw;
+}
+
+h5#app-description {
+  font-size: 1.5vw;
+}
+
+img#main {
+  object-position: 25% 40%;
+}
+}
+
+@media (min-width: 992px) {
+#app-greeting-container {
+  height: 560px;
+}
+
+h2#app-title {
+  line-height: 1.5vw;
+}
+
+img#main {
+  object-position: 5% 40%;
+}
+}
+
+@media (min-width: 1200px) {
+#app-greeting-container {
+  height: 660px;
+}
+
+img#main {
+  object-position: 45% 40%;
+}
+
+div#app-content {
+  transform: translate(-50%, -50%);
+}
+
+h2#app-title {
+  font-size: 2.75vw;
+}
+
+h5#app-description {
+  font-size: 1.25vw;
+}
+}
