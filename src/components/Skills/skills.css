@@ -1,6 +1,6 @@
 #skills-component{
   padding: 5%;
-  background-image: linear-gradient(#486484, #415a77, #486484);
+  /* background-image: linear-gradient(#486484, #415a77, #486484); */
 }
 
 div#skills-grid{
@@ -10,7 +10,6 @@ div#skills-grid{
 }
 
 div.skills-title{
-  color: white;
   font-size: 4vw;
   font-style: italic;
   letter-spacing: 3px;
@@ -18,7 +17,6 @@ div.skills-title{
 }
 
 div.skills-list{
-  color: white;
   font-size: 2vw;
   letter-spacing: 2px;
   line-height: 30px;
