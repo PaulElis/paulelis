@@ -30,11 +30,6 @@ img#exit{
 }
 
 div#hamburger-container{
-  /* position: inherit; */
-  /* width: 30%;
-  float: right;
-  background-color: yellow;
-  height: 50px; */
   transition: 0.7s;
 }
 
@@ -88,6 +83,8 @@ div#hamburger-list a.links:hover{
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  z-index: 100;
+  position: fixed;
 }
 
 #header-title {
@@ -166,7 +163,8 @@ div#header-list a:hover{
 }
 
 @media (min-width: 1200px) {
-#header-container {
+
+div#header-container {
   background-color: white;
   width: 100%;
   padding: 2%;
