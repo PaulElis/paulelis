@@ -1,29 +1,29 @@
 import React, { Component } from 'react';
 import './index.css';
-import main from '../../images/main/main.jpg'
-import mainWebp from '../../images/main/main.webp'
-import main992px from '../../images/main/main992px.jpg'
-import main992pxWebp from '../../images/main/main992px.webp'
-import main1200px from '../../images/main/main1200px.jpg'
-import main1200pxWebp  from '../../images/main/main1200px.webp'
+import pic from '../../images/new/pic.jpg'
+import picWebp from '../../images/new/pic.webp'
+import pic992px from '../../images/new/pic992px.jpg'
+import pic992pxWebp from '../../images/new/pic992px.webp'
+import pic1200px from '../../images/new/pic1200px.jpg'
+import pic1200pxWebp  from '../../images/new/pic1200px.webp'
 
 class Landing extends Component {
 
   render() {
+    // <div id='app-content'>
+    //   <h2 id='app-title'>Developer.</h2>
+    //   <h5 id='app-description'>Interested in creating rich user experiences upon a solid foundation of code.</h5>
+    // </div>
     return (
       <div id='app-greeting-container'>
         <picture>
-          <source srcSet={main1200pxWebp} media="(min-width: 1200px)" type="image/webp" />
-          <source srcSet={main992pxWebp} media="(min-width: 992px)" type="image/webp" />
-          <source srcSet={mainWebp} type="image/webp" />
-          <source srcSet={main1200px} media="(min-width: 1200px)" />
-          <source srcSet={main992px} media="(min-width: 992px)" />
-          <img src={main} id='main' alt='oh no!' className='fade-in' />
+          <source srcSet={pic1200pxWebp} media="(min-width: 1200px)" type="image/webp" />
+          <source srcSet={pic992pxWebp} media="(min-width: 992px)" type="image/webp" />
+          <source srcSet={picWebp} type="image/webp" />
+          <source srcSet={pic1200px} media="(min-width: 1200px)" />
+          <source srcSet={pic992px} media="(min-width: 992px)" />
+          <img src={pic} id='main' alt='oh no!' className='fade-in' />
         </picture>
-        <div id='app-content'>
-          <h2 id='app-title'>Developer.</h2>
-          <h5 id='app-description'>Interested in creating rich user experiences upon a solid foundation of code.</h5>
-        </div>
       </div>
     );
   }

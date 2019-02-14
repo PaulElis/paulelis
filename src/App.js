@@ -18,13 +18,19 @@ class App extends Component {
         </header>
           <Landing />
 
-        <Element name="scroll-to-About" className="element">
-          <About />
-        </Element>
+        <div id='about-skills'>
+          <Element name="scroll-to-About" className="element">
+            <div class='about-skills-section'>
+              <About />
+            </div>
+          </Element>
 
-        <Element name="scroll-to-Skills" className="element">
-          <Skills />
-        </Element>
+          <Element name="scroll-to-Skills" className="element">
+            <div class='about-skills-section'>
+              <Skills />
+            </div>
+          </Element>
+        </div>
 
         <Element name="scroll-to-Projects" className="element">
           <Projects />
