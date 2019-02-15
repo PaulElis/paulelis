@@ -1,16 +1,12 @@
 #about-container {
-  text-align: center;
   color: black;
-  /* font-family: "Poiret One", cursive; */
   font-family: helvetica;
   background-color: white;
-  padding: 15% 0% 5% 0%;
+  padding: 15% 10% 5% 10%;
 }
 
 #about-title {
-  /* color: #D4AF37; */
   font-size: 6vw;
-  font-weight: bold;
   letter-spacing: 2px;
   padding-bottom: 3%;
 }
@@ -19,7 +15,6 @@
   font-size: 3vw;
   letter-spacing: 2px;
   line-height: 35px;
-  padding: 0% 10%;
 }
 
 @media (min-width: 576px) {
@@ -40,51 +35,32 @@
 }
 
 @media (min-width: 768px) {
-#about-title {
-  font-size: 3vw;
+#about-container {
+  padding: 40px;
 }
 
-#about-container {
-  padding: 10% 0%;
+#about-title {
+  font-size: 20px;
+  padding-bottom: 14px;
 }
 
 #about-content{
-  padding-top: 5%;
-  font-size: 1.5vw;
+  font-size: 14px;
 }
 }
 
 @media (min-width: 992px) {
 #about-title {
-  font-size: 2.5vw;
+  font-size: 22px;
 }
 
 #about-content{
-  font-size: 1.25vw;
-}
-}
-
-@media (min-width: 1200px) {
-#about-title {
-  font-size: 2vw;
-}
-
-#about-content{
-  font-size: 1vw;
+  font-size: 12px;
 }
 }
 
 @media (min-width: 1200px) {
 #about-container {
-  padding: 5% 0%;
-}
-
-#about-title {
-  font-size: 1.75vw;
-}
-
-#about-content{
-  padding-top: 2.5%;
-  font-size: .75vw;
+  padding: 40px 80px;
 }
 }

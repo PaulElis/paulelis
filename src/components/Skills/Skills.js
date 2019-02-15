@@ -9,22 +9,22 @@ class Skills extends Component {
 
           <div className='skills-section'>
             <div className='skills-title'>Languages</div>
-            <div className='skills-list'>
-              Javascript, Ruby, HTML, CSS, SQL
+            <div className='skills-list skills-list-spacing'>
+              Javascript | Ruby | HTML | CSS | SQL
             </div>
           </div>
 
           <div className='skills-section'>
             <div className='skills-title' id='skills-title-spacing'>Frameworks + Libraries</div>
-            <div className='skills-list'>
-              React, Node, Express, React Native, Ruby on Rails, Redux
+            <div className='skills-list skills-list-spacing'>
+              React | Node | Express | React Native | Ruby on Rails | Redux | Mongoose | Web3
             </div>
           </div>
 
           <div className='skills-section'>
             <div className='skills-title' id='skills-title-spacing'>Databases</div>
             <div className='skills-list'>
-              MongoDB, PostgreSQL, SQLite
+              MongoDB | PostgreSQL | SQLite
             </div>
           </div>
 

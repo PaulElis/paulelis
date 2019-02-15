@@ -20,13 +20,13 @@ class App extends Component {
 
         <div id='about-skills'>
           <Element name="scroll-to-About" className="element">
-            <div class='about-skills-section'>
+            <div className='about-skills-section'>
               <About />
             </div>
           </Element>
 
           <Element name="scroll-to-Skills" className="element">
-            <div class='about-skills-section'>
+            <div className='about-skills-section'>
               <Skills />
             </div>
           </Element>
