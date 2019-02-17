@@ -1,0 +1,46 @@
+div#connect-component{
+    font-family: helvetica;
+    /* font-family: "Helvetica Neue"; */
+    font-size: 12px;
+    letter-spacing: 2px;
+    background-color: white;
+    padding: 10%;
+}
+
+div#connect-list{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    display: inline-block;
+    text-align: left;
+    line-height: 40px;
+}
+
+div#connect-title{
+    font-size: 20px;
+}
+
+div#connect-list a{
+    color: black;
+}
+
+div#connect-list a :hover{
+    cursor: pointer;
+}
+
+@media (min-width: 576px) {
+div#connect-component{
+    text-align: left;
+    background-color: #F8F8F8;
+    margin: 5% 10%;
+    padding: 5%;
+}
+}
+@media (min-width: 768px) {
+div#connect-component{
+    margin: 2% 0%;
+    padding: 5%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+}

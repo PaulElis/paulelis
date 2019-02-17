@@ -10,10 +10,6 @@ import pic1200pxWebp  from '../../images/new/pic1200px.webp'
 class Landing extends Component {
 
   render() {
-    // <div id='app-content'>
-    //   <h2 id='app-title'>Developer.</h2>
-    //   <h5 id='app-description'>Interested in creating rich user experiences upon a solid foundation of code.</h5>
-    // </div>
     return (
       <div id='app-greeting-container'>
         <picture>

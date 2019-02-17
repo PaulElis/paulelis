@@ -3,6 +3,7 @@ import Header from '../src/components/Header/Header'
 import Landing from '../src/components/Landing/'
 import About from '../src/components/About/About'
 import Skills from '../src/components/Skills/Skills'
+import Connect from '../src/components/Connect/Connect'
 import Projects from '../src/components/Projects/Projects'
 import Footer from '../src/components/Footer/Footer'
 import { Element } from 'react-scroll'
@@ -19,24 +20,22 @@ class App extends Component {
           <Landing />
 
         <div id='about-skills'>
-          <Element name="scroll-to-About" className="element">
-            <div className='about-skills-section'>
+          <Element name="scroll-to-About" className="element about-skills-connect" id='about-grid-box'>
               <About />
-            </div>
           </Element>
 
-          <Element name="scroll-to-Skills" className="element">
-            <div className='about-skills-section'>
+          <Element name="scroll-to-Skills" className="element about-skills-connect" id='skills-grid-box'>
               <Skills />
-            </div>
           </Element>
+
+          <Connect />
         </div>
 
         <Element name="scroll-to-Projects" className="element">
           <Projects />
         </Element>
 
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }

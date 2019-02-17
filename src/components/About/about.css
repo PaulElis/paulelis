@@ -2,17 +2,18 @@
   color: black;
   font-family: helvetica;
   background-color: white;
-  padding: 15% 10% 5% 10%;
+  padding: 10%;
+  margin-top: 40px;
 }
 
 #about-title {
-  font-size: 6vw;
+  font-size: 20px;
   letter-spacing: 2px;
   padding-bottom: 3%;
 }
 
 #about-content {
-  font-size: 3vw;
+  font-size: 10px;
   letter-spacing: 2px;
   line-height: 35px;
 }
@@ -20,8 +21,8 @@
 @media (min-width: 576px) {
 #about-container{
   background-color: #F8F8F8;
-  padding: 5% 0%;
-  margin: 4% 2% 4% 0%;
+  padding: 5%;
+  margin: 5% 10%;
 }
 
 #about-title{
@@ -36,7 +37,6 @@
 
 @media (min-width: 768px) {
 #about-container {
-  padding: 40px;
 }
 
 #about-title {
@@ -45,7 +45,7 @@
 }
 
 #about-content{
-  font-size: 14px;
+  font-size: 12px;
 }
 }
 

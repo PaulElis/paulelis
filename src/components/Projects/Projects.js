@@ -26,7 +26,7 @@ class Projects extends Component {
                 <picture>
                   <source srcSet={jamXXL} media="(min-width: 1200px)" />
                   <source srcSet={jamXL} media="(min-width: 576px)" />
-                  <img src={jam} id='main' alt='oh no!' className='project-image fade-in' />
+                  <img src={jam} alt='oh no!' className='project-image fade-in' />
                 </picture>
                 </a>
                   <div className='middle'>
@@ -47,7 +47,7 @@ class Projects extends Component {
                 <picture>
                   <source srcSet={freestyleXXL} media="(min-width: 1200px)" />
                   <source srcSet={freestyleXL} media="(min-width: 576px)" />
-                  <img src={freestyle} id='main' alt='oh no!' className='project-image fade-in' />
+                  <img src={freestyle} alt='oh no!' className='project-image fade-in' />
                 </picture>
                 </a>
                   <div className='middle'>
@@ -68,7 +68,7 @@ class Projects extends Component {
                 <picture>
                   <source srcSet={eatrXXL} media="(min-width: 1200px)" />
                   <source srcSet={eatrXL} media="(min-width: 576px)" />
-                  <img src={eatr} id='main' alt='oh no!' className='project-image fade-in' />
+                  <img src={eatr} alt='oh no!' className='project-image fade-in' />
                 </picture>
                 </a>
                   <div className='middle'>

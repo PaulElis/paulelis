@@ -85,6 +85,21 @@ img#main{
   height: 100%;
   object-fit: cover;
 }
+}
+
+@media (min-width: 768px) {
+div.element.about-skills-connect{
+  background-color: #f8f8f8;
+  margin: 4% 0% 2% 0%;
+}
+
+div#about-grid-box.element.about-skills-connect{
+  margin-right: 2%;
+}
+
+div#skills-grid-box.element.about-skills-connect{
+  margin-left: 2%;
+}
 
 div#about-skills{
   display: grid;
@@ -92,13 +107,6 @@ div#about-skills{
   margin: 0% 10%;
 }
 
-div.about-skills-section{
-  /* height: 20vh;
-  background-color: #f8f8f8; */
-}
-}
-
-@media (min-width: 768px) {
 #app-greeting-container {
   color: white;
   position: relative;
