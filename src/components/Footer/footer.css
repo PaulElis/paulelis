@@ -1,7 +1,6 @@
 div.footer-list{
   font-family: 'Poiret One', cursive;
-  background-color: white;
-  color: black;
+  background-color: #415a77;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -15,17 +14,17 @@ p.footer-titles{
 }
 
 div.footer-list a{
-  /* color: #D4AF37; */
-  color: black;
+  color: #D4AF37;
   font-size: 3vw;
 }
 
 div.footer-list p{
+  color: #D4AF37;
   font-size: 3vw;
 }
 
 div.footer-list a:hover{
-  /* color: white; */
+  color: white;
   text-decoration: underline;
   cursor: pointer;
 }

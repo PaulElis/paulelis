@@ -1,0 +1,62 @@
+$font: 'Poiret One', cursive;
+$title-color: #D4AF37;
+$title-spacing: 2px;
+$content-spacing: 2px;
+
+#about-container{
+  color: black;
+  font-family: $font;
+  background-color: white;
+  padding: 15% 0% 5% 0%;
+}
+
+#about-title{
+  color: $title-color;
+  font-size: 6vw;
+  font-weight: bold;
+  letter-spacing: $title-spacing;
+  padding-bottom: 3%;
+}
+
+#about-content{
+  font-size: 3vw;
+  letter-spacing: $content-spacing;
+  line-height: 35px;
+  padding: 0% 10%;
+}
+
+@media (min-width: 576px) {
+#about-container{
+  padding: 5% 0%;
+}
+
+#about-title{
+  font-size: 4vw;
+}
+
+#about-content{
+  font-size: 2vw;
+}
+}
+
+@media (min-width: 768px) {
+#about-title{
+  font-size: 4vw;
+}
+
+#about-container{
+  padding: 5% 0%;
+}
+}
+
+@media (min-width: 992px) {
+#about-title{
+  font-size: 40px;
+  padding-bottom: 1.5%;
+}
+
+#about-content{
+  font-size: 18px;
+  padding: 0% 18%;
+}
+}

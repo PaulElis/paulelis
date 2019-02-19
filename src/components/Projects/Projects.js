@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
 import jam from '../../images/jam/jam.jpg'
 import jamXL from '../../images/jam/jamXL.jpg'
-import jamXXL from '../../images/jam/jamXXL.png'
 import freestyle from '../../images/freestyle/freestyle.jpg'
 import freestyleXL from '../../images/freestyle/freestyleXL.jpg'
-import freestyleXXL from '../../images/freestyle/freestyleXXL.png'
 import eatr from '../../images/eatr/eatr.jpg'
 import eatrXL from '../../images/eatr/eatrXL.jpg'
-import eatrXXL from '../../images/eatr/eatrXXL.png'
 import './projects.css';
 
 class Projects extends Component {
@@ -24,9 +21,8 @@ class Projects extends Component {
               <div className='project-image-container'>
                 <a href="https://jam-app-24722.firebaseapp.com" target="_blank" rel="noopener noreferrer">
                 <picture>
-                  <source srcSet={jamXXL} media="(min-width: 1200px)" />
-                  <source srcSet={jamXL} media="(min-width: 576px)" />
-                  <img src={jam} alt='oh no!' className='project-image fade-in' />
+                  <img alt='oh no!' src={jam} className='project-image fade-in' />
+                  <source media="(min-width: 576px)" srcSet={jamXL} />
                 </picture>
                 </a>
                   <div className='middle'>
@@ -45,9 +41,8 @@ class Projects extends Component {
               <div className='project-image-container'>
                 <a href="https://freestyle-e1af9.firebaseapp.com/login" target="_blank" rel="noopener noreferrer">
                 <picture>
-                  <source srcSet={freestyleXXL} media="(min-width: 1200px)" />
-                  <source srcSet={freestyleXL} media="(min-width: 576px)" />
-                  <img src={freestyle} alt='oh no!' className='project-image fade-in' />
+                  <img alt='oh no!' src={freestyle} className='project-image fade-in' />
+                  <source media="(min-width: 576px)" srcSet={freestyleXL} />
                 </picture>
                 </a>
                   <div className='middle'>
@@ -66,9 +61,8 @@ class Projects extends Component {
               <div className='project-image-container'>
                 <a href="https://eatr-4b804.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
                 <picture>
-                  <source srcSet={eatrXXL} media="(min-width: 1200px)" />
-                  <source srcSet={eatrXL} media="(min-width: 576px)" />
-                  <img src={eatr} alt='oh no!' className='project-image fade-in' />
+                  <img alt='oh no!' src={eatr} className='project-image fade-in' />
+                  <source media="(min-width: 576px)" srcSet={eatrXL} />
                 </picture>
                 </a>
                   <div className='middle'>

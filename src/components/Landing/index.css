@@ -45,7 +45,7 @@ h5#app-description {
 @media (min-width: 576px) {
 #app-greeting-container {
   height: 500px;
-  margin: 0% 10%;
+  /* margin-top: 40px; */
 }
 
 div#app-content {

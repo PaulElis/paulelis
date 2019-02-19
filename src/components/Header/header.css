@@ -79,7 +79,7 @@ div#hamburger-list a.links:hover{
 #header-container {
   background-color: white;
   width: 100%;
-  padding: 2% 10%;
+  padding: 2%;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -110,6 +110,51 @@ div#header-list a{
   font-size: 2vw;
 }
 
+a.links{
+}
+
+div#header-list a:hover{
+  color: #D4AF37;
+  font-weight: 900;
+}
+}
+
+@media (min-width: 992px) {
+#header-container {
+  background-color: white;
+  width: 100%;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+#header-title {
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  font-size: 1.5vw;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+div#header-list{
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+div#header-list a{
+  color: black;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  font-size: 1.5vw;
+}
+
+a.links{
+}
+
 div#header-list a:hover{
   color: #D4AF37;
   font-weight: 900;
@@ -117,22 +162,46 @@ div#header-list a:hover{
 }
 }
 
-@media (min-width: 992px) {
-#header-title {
-  font-size: 1.5vw;
-}
-
-div#header-list a{
-  font-size: 1.5vw;
-}
-}
-
 @media (min-width: 1200px) {
+
+div#header-container {
+  background-color: white;
+  width: 100%;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
 #header-title {
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
   font-size: 1.25vw;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+div#header-list{
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 div#header-list a{
+  color: black;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
   font-size: 1.25vw;
+}
+
+a.links{
+}
+
+div#header-list a:hover{
+  color: #D4AF37;
+  font-weight: 900;
+  cursor: pointer;
 }
 }

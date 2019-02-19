@@ -1,66 +1,44 @@
 #about-container {
   color: black;
-  font-family: helvetica;
+  font-family: "Poiret One", cursive;
   background-color: white;
-  padding: 10%;
-  margin-top: 40px;
-}
+  padding: 15% 0% 5% 0%; }
 
 #about-title {
-  font-size: 20px;
+  color: #D4AF37;
+  font-size: 6vw;
+  font-weight: bold;
   letter-spacing: 2px;
-  padding-bottom: 3%;
-}
+  padding-bottom: 3%; }
 
 #about-content {
-  font-size: 10px;
+  font-size: 3vw;
   letter-spacing: 2px;
   line-height: 35px;
-}
+  padding: 0% 10%; }
 
 @media (min-width: 576px) {
-#about-container{
-  background-color: #F8F8F8;
-  padding: 5%;
-  margin: 5% 10%;
-}
+  #about-container {
+    padding: 5% 0%; }
 
-#about-title{
-  font-size: 4vw;
-}
+  #about-title {
+    font-size: 4vw; }
 
-#about-content{
-  text-align: left;
-  font-size: 2vw;
-}
-}
-
+  #about-content {
+    font-size: 2vw; } }
 @media (min-width: 768px) {
-#about-container {
-}
+  #about-title {
+    font-size: 4vw; }
 
-#about-title {
-  font-size: 20px;
-  padding-bottom: 14px;
-}
-
-#about-content{
-  font-size: 12px;
-}
-}
-
+  #about-container {
+    padding: 5% 0%; } }
 @media (min-width: 992px) {
-#about-title {
-  font-size: 22px;
-}
+  #about-title {
+    font-size: 40px;
+    padding-bottom: 1.5%; }
 
-#about-content{
-  font-size: 12px;
-}
-}
+  #about-content {
+    font-size: 18px;
+    padding: 0% 18%; } }
 
-@media (min-width: 1200px) {
-#about-container {
-  padding: 40px 80px;
-}
-}
+/*# sourceMappingURL=about.css.map */
