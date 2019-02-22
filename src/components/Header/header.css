@@ -79,7 +79,8 @@ div#hamburger-list a.links:hover{
 #header-container {
   background-color: white;
   width: 100%;
-  padding: 2%;
+  padding: 2% 5%;
+  letter-spacing: 2px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -91,7 +92,6 @@ div#hamburger-list a.links:hover{
   font-family: 'Poiret One', cursive;
   font-weight: bold;
   font-size: 2vw;
-  letter-spacing: 2px;
   text-align: left;
 }
 
