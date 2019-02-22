@@ -17,7 +17,7 @@ class Skills extends Component {
           <div className='skills-section'>
             <div className='skills-title' id='skills-title-spacing'>Frameworks + Libraries</div>
             <div className='skills-list'>
-              React, Node, Express, React Native, Ruby on Rails, Redux
+              React, Node, Ruby on Rails, Express, Redux, React Native, Mongoose
             </div>
           </div>
 
