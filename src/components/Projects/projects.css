@@ -66,9 +66,6 @@ div.project-image-text{
   font-size: 3.5vw;
 }
 
-div.project-content{
-}
-
 div.project-description{
   color: black;
   font-size: 14px;
@@ -92,6 +89,7 @@ div#project-component{
   font-size: 40px;
   font-family: 'Poiret One', cursive;
   font-weight: bold;
+  letter-spacing: 3px;
   text-align: center;
   padding: 5% 0% 5% 0%;
 }

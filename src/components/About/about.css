@@ -1,44 +1,60 @@
 #about-container {
   color: black;
-  font-family: "Poiret One", cursive;
+  font-family: "Helvetica Neue";
   background-color: white;
-  padding: 15% 0% 5% 0%; }
+  padding: 15% 10% 5% 10%; 
+}
 
 #about-title {
+  font-family: 'Poiret One', cursive;
   color: #D4AF37;
   font-size: 6vw;
   font-weight: bold;
-  letter-spacing: 2px;
-  padding-bottom: 3%; }
+  letter-spacing: 3px;
+  padding-bottom: 3%; 
+}
 
 #about-content {
+  text-align: left;
   font-size: 3vw;
   letter-spacing: 2px;
   line-height: 35px;
-  padding: 0% 10%; }
+}
 
 @media (min-width: 576px) {
   #about-container {
-    padding: 5% 0%; }
+    padding: 5% 10%; 
+  }
 
   #about-title {
-    font-size: 4vw; }
+    font-size: 4vw; 
+  }
 
   #about-content {
-    font-size: 2vw; } }
+    text-align: center;
+    font-size: 2vw; 
+  } 
+}
 @media (min-width: 768px) {
   #about-title {
-    font-size: 4vw; }
-
-  #about-container {
-    padding: 5% 0%; } }
+    font-size: 4vw; 
+  }
+}
 @media (min-width: 992px) {
   #about-title {
     font-size: 40px;
-    padding-bottom: 1.5%; }
+    padding-bottom: 3%; 
+  }
 
   #about-content {
-    font-size: 18px;
-    padding: 0% 18%; } }
+    font-size: 14px;
+  } 
+
+  @media (min-width: 992px) {
+    #about-content {
+      padding: 0% 10%;
+    } 
+  }
+}
 
 /*# sourceMappingURL=about.css.map */

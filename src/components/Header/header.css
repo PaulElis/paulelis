@@ -3,7 +3,7 @@
   font-size: 3vw;
   letter-spacing: 2px;
   background-color: white;
-  padding: 2%;
+  padding: 2% 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -74,9 +74,9 @@ div#hamburger-list a.links:hover{
   cursor: pointer;
 }
 
-@media (min-width: 577px) {
+@media (min-width: 576px) {
 #header-container {
-  padding: 2% 5%;
+  padding: 2% 10%;
 }
 
 #header-title {
