@@ -6,7 +6,8 @@
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
-  height: 600px;
+  /* height: 600px; */
+  height: 45vh;
 }
 
 img#main {
@@ -14,10 +15,10 @@ img#main {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 25% -40%;
+  object-position: 30% 0%;
 }
 
-div#app-content {
+/* div#app-content {
   width: 50%;
   transform: translate(70%, -600%);
 }
@@ -31,7 +32,7 @@ h2#app-title {
 h5#app-description {
   font-size: 1.5vh;
   font-family: "Poiret One", cursive;
-}
+} */
 
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; }}
 
@@ -43,12 +44,7 @@ h5#app-description {
 }
 
 @media (min-width: 576px) {
-#app-greeting-container {
-  height: 500px;
-  /* margin-top: 40px; */
-}
-
-div#app-content {
+/* div#app-content {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -60,21 +56,16 @@ h2#app-title {
 }
 
 h5#app-description {
-  font-size: 2vw;
-}
+  font-size: 2vw; */
+/* } */
 
 img#main {
   margin-top: 0px;
-  object-position: 0% 0%;
 }
 }
 
 @media (min-width: 768px) {
-#app-greeting-container {
-  height: 430px;
-}
-
-div#app-content {
+/* div#app-content {
   transform: translate(-40%, -50%);
 }
 
@@ -85,10 +76,10 @@ h2#app-title {
 
 h5#app-description {
   font-size: 1.5vw;
-}
+} */
 
 img#main {
-  object-position: 25% 40%;
+  object-position: 40% 0%;
 }
 }
 
@@ -108,7 +99,7 @@ img#main {
 
 @media (min-width: 1200px) {
 #app-greeting-container {
-  height: 660px;
+  height: 60vh;
 }
 
 img#main {

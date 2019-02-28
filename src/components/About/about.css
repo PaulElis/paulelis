@@ -48,12 +48,18 @@
 
   #about-content {
     font-size: 14px;
-  } 
+  }
+}
 
-  @media (min-width: 992px) {
-    #about-content {
-      padding: 0% 10%;
-    } 
+@media (min-width: 1200px) {
+  #about-content {
+    padding: 0% 10%;
+  } 
+}
+
+@media (min-width: 1500px) {
+  #about-content {
+    padding: 0% 22%;
   }
 }
 
