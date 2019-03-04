@@ -78,22 +78,22 @@ h5#app-description {
   font-size: 1.5vw;
 } */
 
+#app-greeting-container {
+  height: 50vh;
+}
+
 img#main {
   object-position: 40% 0%;
 }
 }
 
 @media (min-width: 992px) {
-#app-greeting-container {
-  height: 560px;
-}
-
-h2#app-title {
+/* h2#app-title {
   line-height: 1.5vw;
-}
+} */
 
 img#main {
-  object-position: 5% 40%;
+  object-position: 0% 40%;
 }
 }
 
@@ -102,11 +102,7 @@ img#main {
   height: 60vh;
 }
 
-img#main {
-  object-position: 45% 40%;
-}
-
-div#app-content {
+/* div#app-content {
   transform: translate(-50%, -50%);
 }
 
@@ -116,5 +112,5 @@ h2#app-title {
 
 h5#app-description {
   font-size: 1.25vw;
-}
+} */
 }
