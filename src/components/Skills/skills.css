@@ -10,6 +10,7 @@ div#skills-grid{
 }
 
 div.skills-title{
+  font-family: Helvetica, sans-serif;
   color: white;
   font-size: 4vw;
   font-style: italic;
@@ -18,6 +19,7 @@ div.skills-title{
 }
 
 div.skills-list{
+  font-family: Helvetica, sans-serif;
   color: white;
   font-size: 2vw;
   letter-spacing: 2px;

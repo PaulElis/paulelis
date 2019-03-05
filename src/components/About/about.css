@@ -1,6 +1,6 @@
 #about-container {
   color: black;
-  font-family: "Helvetica Neue";
+  font-family: Helvetica, sans-serif;
   background-color: white;
   padding: 15% 10% 5% 10%; 
 }

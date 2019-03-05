@@ -81,7 +81,7 @@ div#hamburger-list a.links:hover{
 
 #header-title {
   letter-spacing: 2px;
-  font-size: 2vw;
+  font-size: 12px;
 }
 
 div#header-list{
@@ -94,9 +94,9 @@ div#header-list{
 
 div#header-list a{
   color: black;
-  font-family: 'Poiret One', cursive;
-  font-weight: bold;
-  font-size: 2vw;
+  /* font-family: 'Poiret One', cursive; */
+  font-family: Helvetica, sans-serif;
+  font-size: 10px;
 }
 
 div#header-list a:hover{
@@ -106,22 +106,32 @@ div#header-list a:hover{
 }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
 #header-title {
-  font-size: 1.5vw;
+  font-size: 14px;
 }
 
 div#header-list a{
-  font-size: 1.5vw;
+  font-size: 12px;
+}
+}
+
+@media (min-width: 992px) {
+#header-title {
+  font-size: 16px;
+}
+
+div#header-list a{
+  font-size: 14px;
 }
 }
 
 @media (min-width: 1200px) {
 #header-title {
-  font-size: 1.25vw;
+  font-size: 20px;
 }
 
 div#header-list a{
-  font-size: 1.25vw;
+  font-size: 16px;
 }
 }

@@ -68,8 +68,8 @@ div.project-image-text{
 
 div.project-description{
   color: black;
-  font-size: 14px;
-  font-family: 'Poiret One', cursive;
+  font-size: 12px;
+  font-family: Helvetica, sans-serif;
   letter-spacing: 1px;
   padding: 1% 0% 1% 0%;
 }
@@ -151,26 +151,29 @@ div.project-content{
 }
 
 div.project-description{
+  font-family: Helvetica, sans-serif;
   color: black;
-  font-size: 14px;
-  font-family: 'Poiret One', cursive;
+  font-size: 10px;
+  line-height: 16px;
   letter-spacing: 1px;
   padding: 1% 0%;
 }
 }
 
+@media (min-width: 768px) {
+div.project-description{
+  font-size: 12px;
+  line-height: 18px;
+}
+}
+
 @media (min-width: 992px) {
 div#project-component{
-  text-align: center;
-  background-color: white;
-  padding: 0% 0% 0% 0%;
+  padding: 0%;
 }
 
 #project-header{
-  color: #D4AF37;
   font-size: 40px;
-  font-family: 'Poiret One', cursive;
-  font-weight: bold;
 }
 
 #project-grid{
@@ -205,18 +208,10 @@ img.project-image{
 }
 
 div.project-image-text{
-  color: black;
-  letter-spacing: 2px;
-  font-weight: 400;
   font-size: 1.5vw;
 }
 
 div.project-content{
-}
-
-div.project-content{
-  border: 1px solid #ddd;
-  border-radius: 5px;
   padding: 2% 2% 0% 2%;
   background-color: #eee;
 }
