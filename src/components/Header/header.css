@@ -100,7 +100,8 @@ div#header-list a{
 }
 
 div#header-list a:hover{
-  font-size: 2.25vw;
+  transition: .2s ease-in-out;
+  color: #415a77;
   cursor: pointer;
 }
 }
@@ -113,10 +114,6 @@ div#header-list a:hover{
 div#header-list a{
   font-size: 1.5vw;
 }
-
-div#header-list a:hover{
-  font-size: 1.75vw;
-}
 }
 
 @media (min-width: 1200px) {
@@ -126,9 +123,5 @@ div#header-list a:hover{
 
 div#header-list a{
   font-size: 1.25vw;
-}
-
-div#header-list a:hover{
-  font-size: 1.5vw;
 }
 }
