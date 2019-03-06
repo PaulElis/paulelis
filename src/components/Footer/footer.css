@@ -1,81 +1,61 @@
 div.footer-list{
-  font-family: 'Poiret One', cursive;
+  font-family: Helvetica, sans-serif;
+  letter-spacing: 1px;
   background-color: #415a77;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: baseline;
-  padding-top: 2%;
-}
-
-p.footer-titles{
-  font-size: 3.5vw;
-  font-weight: bold;
+  align-items: center;
 }
 
 div.footer-list a{
   color: #D4AF37;
-  font-size: 3vw;
+  font-size: 10px;
 }
 
 div.footer-list p{
+  margin: 0;
   color: #D4AF37;
-  font-size: 3vw;
+  font-size: 10px;
 }
 
 div.footer-list a:hover{
+  transition: .2s ease-in-out;
   color: white;
-  text-decoration: underline;
   cursor: pointer;
 }
 
 @media (min-width: 576px) {
 div.footer-list{
-  padding-top: 2%;
-}
-
-p.footer-titles{
-  font-size: 2.5vw;
+  padding: 1% 0;
 }
 
 div.footer-list a{
-  font-size: 2vw;
+  font-size: 12px;
 }
 
 div.footer-list p{
-  font-size: 2vw;
+  font-size: 12px;
 }
 
 }
 
 @media (min-width: 992px) {
-div.footer-list{
-  padding-top: 1%;
-}
-
-p.footer-titles{
-  font-size: 2vw;
-}
-
 div.footer-list a{
-  font-size: 1.5vw;
+  font-size: 14px;
 }
 
 div.footer-list p{
-  font-size: 1.5vw;
+  font-size: 14px;
 }
 }
 
-@media (min-width: 1200px) {
-p.footer-titles{
-  font-size: 1.25vw;
-}
-
+@media (min-width: 1500px) {
 div.footer-list a{
-  font-size: 1vw;
+  font-size: 16px;
 }
 
 div.footer-list p{
-  font-size: 1vw;
+  font-size: 16px;
 }
 }

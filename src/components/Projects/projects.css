@@ -152,7 +152,7 @@ div.project-content{
 
 div.project-description{
   font-family: Helvetica, sans-serif;
-  color: black;
+  color: #333;
   font-size: 10px;
   line-height: 16px;
   letter-spacing: 1px;
@@ -187,24 +187,6 @@ div#one.project-section{
 
 div.project-section{
   margin: 0% 5% 5% 5%;
-}
-
-div.project-image-container{
-  position: relative;
-}
-
-img.project-image{
-  opacity: 1;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-
-.project-image-container:hover img{
-  opacity: 0.3;
-}
-
-.project-image-container:hover .middle{
-  opacity: 1;
 }
 
 div.project-image-text{
