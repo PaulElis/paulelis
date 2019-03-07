@@ -18,6 +18,7 @@ class Landing extends Component {
           <source srcSet={main1200pxWebp} media="(min-width: 992px)" type="image/webp" />
           <source srcSet={mainWebp} type="image/webp" />
           <source srcSet={main1200px} media="(min-width: 992px)" />
+            <a id='app-greeting-text'>Geirangerfjord, Norway</a>
           <img src={main} id='main' alt='oh no!' className='fade-in' />
         </picture>
       </div>

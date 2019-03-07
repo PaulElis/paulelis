@@ -1,12 +1,11 @@
 #app-greeting-container {
   color: white;
-  font-family: "Poiret One", cursive;
+  font-family: Helvetica, sans-serif;
   position: relative;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
-  /* height: 600px; */
   height: 45vh;
 }
 
@@ -16,6 +15,20 @@ img#main {
   height: 100%;
   object-fit: cover;
   object-position: 30% 0%;
+  position: relative;
+}
+
+#app-greeting-text{
+  z-index: 1000;
+  font-size: 8px;
+  color: #fff;
+  position: absolute;
+  padding: 48vh 0 0 75vw;
+}
+
+#app-greeting-text a:hover{
+  color: red;
+  cursor: pointer;
 }
 
 /* div#app-content {
@@ -62,6 +75,12 @@ h5#app-description {
 img#main {
   margin-top: 0px;
 }
+
+div#app-greeting-text{
+  font-size: 18px;
+  padding-top: 43vh;
+}
+
 }
 
 @media (min-width: 768px) {
@@ -85,6 +104,11 @@ h5#app-description {
 img#main {
   object-position: 40% 0%;
 }
+
+div#app-greeting-text{
+  font-size: 18px;
+  padding-top: 48vh;
+}
 }
 
 @media (min-width: 992px) {
@@ -100,6 +124,11 @@ img#main {
 @media (min-width: 1200px) {
 #app-greeting-container {
   height: 60vh;
+}
+
+div#app-greeting-text{
+  font-size: 18px;
+  padding-top: 58vh;
 }
 
 /* div#app-content {
