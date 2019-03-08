@@ -15,10 +15,14 @@ class Landing extends Component {
     return (
       <div id='app-greeting-container'>
         <picture>
+            <a  href="https://www.google.com/maps/place/Geirangerfjord/@62.1047779,6.9351325,11z/data=!3m1!4b1!4m5!3m4!1s0x46169d427b268c51:0xb8c99540dcc397fe!8m2!3d62.101506!4d7.0940817" 
+                target="_blank" rel="noopener noreferrer" id='app-greeting-text'
+            >
+                Geirangerfjord, Norway
+            </a>
           <source srcSet={main1200pxWebp} media="(min-width: 992px)" type="image/webp" />
           <source srcSet={mainWebp} type="image/webp" />
           <source srcSet={main1200px} media="(min-width: 992px)" />
-            <a id='app-greeting-text'>Geirangerfjord, Norway</a>
           <img src={main} id='main' alt='oh no!' className='fade-in' />
         </picture>
       </div>

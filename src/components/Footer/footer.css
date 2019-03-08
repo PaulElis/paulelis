@@ -31,31 +31,31 @@ div.footer-list{
 }
 
 div.footer-list a{
-  font-size: 12px;
+  font-size: 10px;
 }
 
 div.footer-list p{
-  font-size: 12px;
+  font-size: 10px;
 }
 
 }
 
 @media (min-width: 992px) {
 div.footer-list a{
-  font-size: 14px;
+  font-size: 12px;
 }
 
 div.footer-list p{
-  font-size: 14px;
+  font-size: 12px;
 }
 }
 
 @media (min-width: 1500px) {
 div.footer-list a{
-  font-size: 16px;
+  font-size: 14px;
 }
 
 div.footer-list p{
-  font-size: 16px;
+  font-size: 14px;
 }
 }

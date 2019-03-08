@@ -18,16 +18,20 @@ img#main {
   position: relative;
 }
 
-#app-greeting-text{
+a#app-greeting-text{
   z-index: 1000;
-  font-size: 8px;
+  font-size: 7px;
+  letter-spacing: 1px;
   color: #fff;
   position: absolute;
-  padding: 48vh 0 0 75vw;
+  text-align: right;
+  bottom: -41px;
+  right: 5px;
 }
 
-#app-greeting-text a:hover{
-  color: red;
+a#app-greeting-text:hover{
+  color: #D4AF37;
+  transition: 1s;
   cursor: pointer;
 }
 
@@ -76,9 +80,10 @@ img#main {
   margin-top: 0px;
 }
 
-div#app-greeting-text{
-  font-size: 18px;
-  padding-top: 43vh;
+a#app-greeting-text{
+  bottom: 0px;
+  right: 5px;
+  font-size: 10px;
 }
 
 }
@@ -105,9 +110,8 @@ img#main {
   object-position: 40% 0%;
 }
 
-div#app-greeting-text{
-  font-size: 18px;
-  padding-top: 48vh;
+a#app-greeting-text{
+  /* font-size: 12px; */
 }
 }
 
@@ -126,9 +130,8 @@ img#main {
   height: 60vh;
 }
 
-div#app-greeting-text{
-  font-size: 18px;
-  padding-top: 58vh;
+a#app-greeting-text{
+  font-size: 12px;
 }
 
 /* div#app-content {
