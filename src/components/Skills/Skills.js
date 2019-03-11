@@ -10,14 +10,14 @@ class Skills extends Component {
           <div className='skills-section'>
             <div className='skills-title'>Languages</div>
             <div className='skills-list'>
-              Javascript, Ruby, HTML, CSS, SQL
+              Javascript, Ruby, Typescript, HTML, CSS, SQL
             </div>
           </div>
 
           <div className='skills-section'>
             <div className='skills-title' id='skills-title-spacing'>Frameworks + Libraries</div>
             <div className='skills-list'>
-              React, Node, Ruby on Rails, Express, Redux, React Native, Mongoose
+              React, Node, Ruby on Rails, Express, Redux, React Native, Mongoose, Web3
             </div>
           </div>
 
