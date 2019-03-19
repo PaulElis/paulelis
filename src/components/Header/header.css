@@ -38,22 +38,22 @@ div#hamburger-list{
   margin-top: 40px;
   position: fixed;
   height: 150px;
-  width: 40%;
-  font-family: 'Poiret One', cursive;
-  background-color: #111;
+  width: 35%;
+  font-family: Helvetica, sans-serif;
+  background-color: #ffffff;
   transition: height 0.7s;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   z-index: 1000;
-  margin-left: 60%;
+  margin-left: 65%;
 }
 
 div#no-list{
+  font-family: Helvetica, sans-serif;
   height: 0px;
   width: 0px;
   float: right;
-  font-family: 'Poiret One', cursive;
   background-color: #111;
   transition: height 0.7s;
   display: flex;
@@ -62,10 +62,10 @@ div#no-list{
 }
 
 div#hamburger-list a.links{
-  color: #fff;
+  color: #000000;
   font-weight: bold;
-  font-size: 3vw;
-  letter-spacing: 3px;
+  font-size: 10px;
+  letter-spacing: 2px;
   display: flex;
   flex-direction: column;
 }
